@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GarritasPetShop - Servicios</title>
+    <meta name="description" content="No busques más! Contamos con servicios de guardería, peluqueria canina y atención veretinaria.">
+    <meta name="keywords" content="petshop,mascotas,alimento para perro,alimento para gato,veterinaria,peluqueria canina,guarderia animal,tienda para mascotas,garritas">
+    <link rel="stylesheet" href="../scss/bootstrap.min.css">
+    <link rel="stylesheet" href="../scss/styles.css">
+</head>
+<body>
+<div class="container">
+        <!-- Header -->
+        <header id="header">
+            <div class="headerIzquierda">
+                <div>
+                    <a href="./index.html">
+                        <img class="logo" src="../Imag/logo.png" alt="logo">
+                    </a>
+                </div> 
+            </div> 
+            <div class="headerDerecha">
+                <div class="logIn">
+                    <a href="#">Ingresar</a>
+                </div>
+            </div> 
+        </header>
+    <!-- /Header -->
+    
+    <!-- Navbar + spinningLogo -->
+    <nav class="navbar navbar-expand-lg navbar-light" id="navegacion">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="containerPaw">
+                    <div class="spinningLogo">
+                        <img src="../Imag/paw.png" alt="patita">
+                    </div>
+                </div>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-evenly w-100">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle perrosDelay" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            PERROS
+                        </a>
+                        <ul class="dropdown-menu m-auto" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item  m-auto" href="./perros.html">INDICE CANINO</a></li>
+                            <li><hr>
+                            <li><a class="dropdown-item m-auto" href="#">Estética e higiene</a></li>
+                            <li><a class="dropdown-item m-auto" href="#">Juguetes y snacks</a></li>
+                            <li><a class="dropdown-item m-auto" href="#">Alimentos</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle gatosDelay" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        GATOS
+                        </a>
+                        <ul class="dropdown-menu m-auto" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item m-auto" href="../HTML/gatos.html">INDICE FELINO</a></li>
+                            <li><hr>
+                            <li><a class="dropdown-item m-auto" href="#">Estética e higiene</a></li>
+                            <li><a class="dropdown-item m-auto" href="#">Juguetes y snacks</a></li>
+                            <li><a class="dropdown-item m-auto" href="#">Alimentos</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle serviciosDelay" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        SERVICIOS
+                        </a>
+                        <ul class="dropdown-menu m-auto" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item m-auto" href="../HTML/servicios.html">INDICE DE SERVICIOS</a></li>
+                            <li><hr>
+                            <li><a class="dropdown-item m-auto" href="#">Atención veterinaria</a></li>
+                            <li><a class="dropdown-item m-auto" href="#">Peluquería canina</a></li>
+                            <li><a class="dropdown-item m-auto" href="#">Guardería</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link contactoDelay" href="../HTML/contacto.html">CONTACTO</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2 buscador" type="search" placeholder="Buscador" aria-label="Search">
+                    <button class="btn btnBuscar btn-outline-success" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- /Navbar + spinningLogo  -->
+
+    <!-- <section class="indicador">
+        <p>
+            <span><a href="../index.html"> Inicio</a> /</span>
+            <span>Servicios</span>
+        </p>
+    </section > -->
+    <div class="banner">
+        <!-- <div class="marker">
+            <p><a href="../index.html">Inicio</a> / servicios</p>
+        </div> -->
+        <img src="../Imag/bannerServicios.png" alt="">
+    </div>
+
+
+    <section>
+        <div class="servDiv">
+            <div class="sPic sPic1">
+                <img class="vet" src="../Imag/veterinariaaaa.png" alt="Veterinaria">
+                <p> Atención veterinaria </p></div>
+            <div class="sPic sPic2">
+                <img class="pelu" src="../Imag/peluuu.png" alt="Peluquería canina">
+                <p> Peluquería canina </p></div>
+            <div class="sPic sPic3">
+                <img class="guar" src="../Imag/guarderiaaa.png" alt="Servicio de guardería">
+                <p> Servicio de guardería </p></div>
+        </div>
+    </section>
+
+
+        <!-- Prefooter -->
+        <section class="preFooter">
+                <div class="card">
+                    <img src="../Imag/iconEnvio.png" alt="Envío">
+                    <span>Envíos sin cargo</span> 
+                </div>
+                <div class="card">
+                    <img src="../Imag/iconMedios.png" alt="Medios de pago">
+                    <span>Todos los medios de pago</span> 
+                </div>
+                <div class="card">
+                    <img src="../Imag/iconSegura.png" alt="Compra segura">
+                    <span>Compra 100% segura</span>
+                </div>   
+        </section>
+        <!-- /Prefooter -->
+</div>
+        
+    <!-- Footer -->
+    <div class="gradiente">
+        <div class="container">
+            <footer>
+                <section class="futer1 foot">
+                    <div>
+                        <h2>Navegación</h2>
+                        <!-- Botones modales -->
+                        <div class="contenidoF contenidoF1">
+                            <button type="button" class="btn btn-lg btnFuter1" data-bs-toggle="modal" data-bs-target=".envios">
+                                Envíos y entregas
+                            </button>
+                            <button type="button" class="btn btn-lg btnFuter1" data-bs-toggle="modal" data-bs-target=".cambios">
+                                Cambios y devoluciones
+                            </button>
+                            <button type="button" class="btn btn-lg btnFuter1" data-bs-toggle="modal" data-bs-target=".politica">
+                                Política de privacidad
+                            </button>
+                        </div>
+                    </div>
+                </section>
+                <section class="futer2 foot">
+                    <div>
+                        <h2 class="mediosDePago">Medios de pago</h2>
+                        <div class="contenidoF">
+                            <!-- Lista Medios de pago -->
+                            <div>
+                                <ul class="mediosPago">
+                                    <li><img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/mercadopago.png" class="footer__top__icon" alt="Mercado Pago"></li>
+                                    <li><img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/visa.png" class="footer__top__icon" alt="Visa"></li>
+                                    <li><img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/american-express.png" class="footer__top__icon" alt="American Express"></li>
+                                    <li><img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/mastercard.png" class="footer__top__icon" alt="MasterCard"></li>
+                                    <li><img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/naranja.png" class="footer__top__icon" alt="Naranja"></li>
+                                    <li><img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/cabal.png" class="footer__top__icon" alt="Cabal"></li>
+                                    <li><img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/nativa.png" class="footer__top__icon" alt="Nativa"></li>
+                                    <li><img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/mercadopago-patagonia.png" class="footer__top__icon" alt="Tarjeta Mercado Pago Patagonia"></li>
+                                    <li><img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/tarjeta-walmart.png" class="footer__top__icon" alt="Tarjeta Walmart"></li>
+                                    <li><img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/diners-club.png" class="footer__top__icon" alt="Diners Club"></li>
+                                    <li><img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/visa-debito.png" class="footer__top__icon" alt="Visa Débito"></li>
+                                    <li><img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/mastercard-debito.png" class="footer__top__icon" alt="MasterCard Débito"></li>
+                                    <li><img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/maestro.png" class="footer__top__icon" alt="Maestro"></li>
+                                    <li><img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/pagofacil.png" class="footer__top__icon" alt="Pago Fácil"></li>
+                                    <li><img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/rapipago.png" class="footer__top__icon" alt="Rapipago"></li>
+                                    <li><img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/provincia-pagos.png" class="footer__top__icon" alt="Provincia NET Pagos"></li>
+                                    <li><img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/link.png" class="footer__top__icon" alt="Link"></li>
+                                    <li><img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/cobroexpress.png" class="footer__top__icon" alt="Cobro Express"></li>
+                                    <li><img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/cabal-debito.png" class="footer__top__icon" alt="Cabal Débito"></li>
+                                    <li><img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/deposito.png" class="footer__top__icon" alt="Depósito o transferencia bancaria"></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="futer3 foot">
+                    <div>
+                        <h2>Contactanos</h2>
+                        <!-- Lista contacto -->
+                        <div class="contenidoF">
+                            <div class="line"><img src="./Imag/telephone.svg" alt=""><h3>0810-GAR-RITA (427-7482)</h3></div>
+                            <div class="line"><img src="./Imag/envelope.svg" alt=""><h3>contacto@garritaspetshop.com</h3></div>
+                            <div class="line"><img src="./Imag/geo-alt.svg" alt=""><h3>Av. Colón 2100, Mar del Plata</h3></div>
+                        </div>
+                    </div>
+                </section>
+            </footer>
+        </div>
+    </div>
+    <!-- /Footer -->
+    
+    <!-- modal 1 -->
+    <div class="modal fade envios" id="exampleModal" tabindex="-1" aria-labelledby="EnviosYEntregas" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="EnviosYEntregas">Envíos y entregas</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">      
+                    <p>       	
+                        <span>ZONAS DE ENTREGAS</span><br>
+                        EN GARRITAS HACEMOS ENTREGAS SIN CARGO (MINIMO DE COMPRA $1200) EN TODA CAPITAL FEDERAL, CIUDADELA, LOMAS DEL MIRADOR, RAMOS MEJIA y CASEROS.<br>
+                        CONTAMOS CON LOS MEJORES REPARTIDORES Y UNA MODERNA FLOTA DE VEHÍCULOS PROPIOS PARA QUE TU COMPRA LLEGUE EN TIEMPO Y FORMA.
+                        TENER NUESTRA PROPIA FLOTA NOS PERMITE TENER UNA AMPLIA FRANJA HORARIA DE ENTREGAS PARA PODER REALIZAR ENVÍOS EN EL MISMO DÍA. <br><br>
+                        <span>HORARIO DE ENTREGAS EN CUARENTENA</span><br>
+                        A RAIZ DE LA SITUACION ACTUAL POR LA QUE ESTAMOS ATREVESANDO Y LA GRAN DEMANDA DE PEDIDOS, LOS NUEVOS HORARIOS DE ENTREGAS PROVISORIOS SON
+                        DE LUNES A VIERNES DE 9 A 18 HS Y LOS DÍAS SÁBADOS DE 9 A 14 HS.
+                        EN LA MAYORÍA DE LOS CASOS, COMPRANDO ANTES DE LAS 13 HS (DÍAS HÁBILES) PODEMOS ENTREGARTE TUS PRODUCTOS EN EL MISMO DÍA.<br>
+                        INDEPENDIENTEMENTE DE TU UBICACIÓN, SIEMPRE NOS PONDREMOS EN CONTACTO TELEFÓNICAMENTE O VÍA WHATSAPP PARA REPASAR DETALLES DE TU ENTREGA O ENVÍO ! <br><br>
+                        <span>COMPRÁ Y RETIRA EN NUESTRA SUCURSAL</span><br>
+                        EN GARRITAS PET SHOP PODÉS HACER TU PEDIDO, SELECCIONAR LA OPCIÓN "RETIRO EN SUCURSAL" Y ELEGIR TU SUCURSAL MÁS CERCANA PARA RETIRARLO.<br>
+                        PODES RETIRAR TUS COMPRAS LOS DÍAS LUNES A VIERNES DE 9 A 18 HS Y LOS SÁBADOS DE 9 A 14 HS.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Entendido</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal 2 -->
+    <div class="modal fade cambios" id="exampleModal" tabindex="-1" aria-labelledby="CambiosYDevoluciones" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="CambiosYDevoluciones">Cambios y devoluciones</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">      
+                    <p>       	
+                        <span>QUEREMOS QUE TU EXPERIENCIA DE COMPRA SEA LA MEJOR</span><br>
+                        SI TUVISTE ALGÚN INCONVENIENTE CON TU PEDIDO Y NECESITÁS AYUDA, COMUNICATE CON NUESTRO EQUIPO DE ATENCIÓN AL CLIENTE AL 0810-GAR-RITA (427-7482) PARA QUE PODAMOS AYUDARTE CON TU INCONVENIENTE.<br>
+                        LOS HORARIOS DE ATENCIÓN SON DE LUNES A VIERNES DE 9 A 20 HS Y LOS DÍAS SÁBADOS DE 9 A 14 HS. TAMBIÉN PODÉS ENVIARNOS UN MAIL A CONTACTO@GARRITASPETSHOP.COM PARA CONTACTAR A NUESTRO EQUIPO.<br>
+                        RECORDÁ TENER SIEMPRE A MANO EL NÚMERO DE ORDEN.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Entendido</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal 3 -->
+    <div class="modal fade politica" id="exampleModal" tabindex="-1" aria-labelledby="PoliticaDePrivacidad" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="PoliticaDePrivacidad">Política de privacidad</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">      
+                    <p>       	
+                        <span>POLÍTICA DE PRIVACIDAD</span><br>
+                        La presente Política de Privacidad establece los términos en que Garritas Pet Shop protege la información que es proporcionada por sus usuarios al momento de utilizar su sitio web. Esta compañía está comprometida con la seguridad de los datos de sus usuarios. Cuando le pedimos llenar los campos de información personal con la cual usted pueda ser identificado, lo hacemos asegurando que sólo se empleará de acuerdo con los términos de este documento. Sin embargo esta Política de Privacidad puede cambiar con el tiempo o ser actualizada por lo que le recomendamos y enfatizamos revisar continuamente esta página para asegurarse que está de acuerdo con dichos cambios.<br><br>
+                        <span>Información recogida</span><br>
+                        Nuestro sitio web podrá recoger información personal por ejemplo: Nombre, información de contacto como: su dirección de correo electrónico, teléfono, e información demográfica. Así mismo cuando sea necesario podrá ser requerida información específica para procesar algún pedido o realizar una entrega o facturación.<br><br>
+                        <span>Uso de la información recogida</span><br>
+                        Nuestro sitio web emplea la información con el fin de proporcionar el mejor servicio posible, particularmente para mantener un registro de usuarios, de pedidos en caso que aplique, y mejorar nuestros productos. Es posible que sean enviados correos electrónicos periódicamente a través de nuestro sitio con ofertas especiales, nuevos productos y otra información publicitaria que consideremos relevante para usted o que pueda brindarle algún beneficio, estos correos electrónicos serán enviados a la dirección que usted proporcione y podrán ser cancelados en cualquier momento.<br>
+                        Garritas está altamente comprometido con el cumplimiento de mantener su información segura. Usamos los sistemas más avanzados y los actualizamos constantemente para asegurarnos que no exista ningún acceso no autorizado.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Entendido</button>
+                </div>
+            </div>
+        </div>
+    
+    
+    </div>
+    
+    
+    <script src="../Js/bootstrap.min.js"></script>
+    </body>
+    </html>

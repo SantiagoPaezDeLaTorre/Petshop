@@ -1,0 +1,247 @@
+#navegacion{
+    font-size: 2rem;
+    padding: 10px 0 4px 0;
+    background-color:whitesmoke;
+    color:whitesmoke;
+    text-decoration: none;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    font-family: Qsand;
+    border-radius: 15px 15px 0 0; 
+    .navbar-collapse{
+        background-color: whitesmoke;
+        color: #1E5594;
+        margin-top: 5px;
+        ul{
+            justify-content: center;
+        }
+    }
+    //   imagen giratoria en menu de pantallas chicas
+    .spinningLogo{
+        position: absolute;
+        display: block;
+        z-index: 900;
+        max-width: 25%;
+        top: 25%;
+        left: 5%;
+        -webkit-animation: rotation 2.5s infinite linear;
+        -moz-animation: rotation 2.5s infinite linear;
+        -ms-animation: rotation 2.5s infinite linear;
+        -o-animation: rotation 2.5s infinite linear;
+        animation: rotation 2.5s infinite linear;
+        img{
+            max-width: 100%;
+    }
+}
+    .nav-link{
+        opacity: 1;
+        padding-top: 0;
+        color: #1E5594;
+        font-family: Qsand;
+    }
+    .nav-link:hover{
+        color: #2883C7;
+    }
+    .dropdown-menu{
+        background-color: whitesmoke;
+        opacity: 0.95;
+        max-width: 200px;
+        border-radius: 15px;
+        z-index: 1001;
+        a{
+            line-height: 2rem;
+            position: relative;
+            color: #1E5594;
+            width: 155px;
+            text-align: center;
+            padding-left: 10px;
+            border-radius: 5px;
+            margin: 5px;
+            transition: all 0.5s ease-in-out;
+            transform-origin:bottom left;
+        }
+        a:hover{
+            background-color: transparent;
+        }
+        li:hover a{
+            font-weight: bold;
+            padding: 3px;
+            font-size: 1.3rem;
+            animation-duration: 2s;
+            color: #2883C7;
+        }
+    }
+    .buscador{
+        z-index: 1000;
+    }
+    .btnBuscar{
+        background-color: #1E5594;
+        color: #9DC9E0;
+        font-weight: bold;
+        border:#1E5594 ;
+    }
+    .btnBuscar:hover{
+        background-color: #2883C7;
+        color: #c6e9fc;
+        transition-duration: 0.5s;
+    }
+    .navbar-toggler-icon{
+        margin: 3px;
+    }
+}
+
+// Rotación de la patita en navbar pantallas chicas
+@keyframes rotation{
+    from {
+        -webkit-transform: rotateY(0deg);
+        -moz-transform: rotateY(0deg);
+        -ms-transform: rotateY(0deg);
+        -o-transform: rotateY(0deg);
+        transform: rotateY(0deg);
+    }
+    to {
+        -webkit-transform: rotateY(359deg);
+        -moz-transform: rotateY(359deg);
+        -ms-transform: rotateY(359deg);
+        -o-transform: rotateY(359deg);
+        transform: rrotateY(359deg);
+    }
+}
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotateY(0deg);
+        -moz-transform: rotateY(0deg);
+        -ms-transform: rotateY(0deg);
+        -o-transform: rotateY(0deg);
+        transform: rotateY(0deg);
+    }
+
+    to {
+        -webkit-transform: rotateY(359deg);
+        -moz-transform: rotateY(359deg);
+        -ms-transform: rotateY(359deg);
+        -o-transform: rotateY(359deg);
+        transform: rrotateY(359deg);
+    }
+}
+//  /Rotación de la patita en navbar pantallas chicas
+
+
+// Animacion lista navbar
+@keyframes fadeInMenu{
+    // 0% {
+    // transform: translateY(100%);
+    // }
+    // 100% {
+    // transform: translateX(0);
+    // }
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+}
+
+// Animacion lista navbar
+
+/*mediaQuery navbar  */
+@media screen and (min-width: 992px) {
+    #navegacion{
+        background-color:#1E5594;
+        color:#9DC9E0;
+        .nav-link{
+            color: #9DC9E0;
+            font-family: Qsand;
+        }
+        .nav-link:hover{
+            color: #c6e9fc;
+        }
+        .navbar-collapse{
+            background-color: #1E5594;
+        }
+        .dropdown-menu{
+            border-radius: 8px;
+            background-color: #1E5594;
+            hr{
+                margin: 6px 0;
+            }
+            a{
+                color: #9DC9E0;
+                text-align: left;
+                position: relative;
+                width: 160px;
+                padding-left: 10px;
+                border-radius: 5px;
+                margin: 5px;
+                transition: all 0.5s ease-in-out;
+                transform-origin:bottom left;
+            }
+            a:hover{
+                color: #c6e9fc;
+                background-color: transparent;
+            }
+            li:hover a{
+                font-size: 1rem;
+                color: #c6e9fc;
+                padding: 5px;
+                font-weight: bold;
+                transform: scale(1.4);
+            }
+        }
+    }
+    .spinningLogo{ 
+        img{
+            display: none;
+        }
+    }
+}
+@media screen and (max-width: 400px){
+    .spinningLogo{
+        display: none;
+    }
+}
+// @media screen and (max-width: 560px){
+//     .spinningLogo{
+//         top: 35%;
+//     }
+// }
+@media screen and (max-width: 992px){
+    .navbar-nav{
+        .inicioDelay{
+            animation: 1.25s fadeInMenu;
+            // animation-delay: 0s;
+        }
+        .perrosDelay{
+            animation: 1.5s fadeInMenu;
+            // animation-delay: 0.3s;
+        }
+        .gatosDelay{
+            animation: 1.8s fadeInMenu;
+            // animation-delay: 0.6s;
+        }
+        .serviciosDelay{
+            animation: 2.1s fadeInMenu;
+            // animation-delay: 9s;
+        }
+        .contactoDelay{
+            animation: 2.3s fadeInMenu;
+            // animation-delay: 1.2s;
+        }
+    }
+    .navbar-collapse{
+        .navbar-nav li{
+            text-align: center;
+        }
+        .dropdown-menu a{
+            text-align: center;
+        }
+    }
+    
+    
+}
+/* /mediaQuery navbar  */
+
+
+

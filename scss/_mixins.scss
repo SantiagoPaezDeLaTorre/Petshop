@@ -1,0 +1,11 @@
+@mixin indices{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-around;
+    font-size: 2rem;
+    font-weight: bold;
+    position: relative;
+    margin: 30px;
+    height: 280px;
+}

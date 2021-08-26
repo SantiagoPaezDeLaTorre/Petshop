@@ -1,0 +1,212 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: Qsand;
+    src: url(../HTML/Fuentes/Quicksand-VariableFont_wght.ttf);
+    }
+@font-face {
+    font-family: QsandBold;
+    src: url(../HTML/Fuentes/static/Quicksand-Bold.ttf);
+    }
+@font-face {
+    font-family: QsandSemiBold;
+    src: url(../HTML/Fuentes/static/Quicksand-SemiBold.ttf);
+    }
+@font-face {
+    font-family: QsandLight;
+    src: url(../HTML/Fuentes/static/Quicksand-Light.ttf)
+}
+html{
+    font-size: 67.5%;
+}
+body{
+    font-family: Qsand, Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+}
+.container{
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+section{
+    color: rgb(201, 34, 34);}
+
+@import 'header';
+@import 'menu';
+@import 'prefooter';
+@import 'footer';
+@import 'mixins';
+@import 'perros';
+@import 'gatos';
+@import 'servicios';
+@import 'contactos';
+@import 'colores';
+@import 'error';
+
+.carousel{
+    z-index: 1000;
+}
+#carouselExampleIndicators .carousel-indicators{
+    bottom: -42px;
+}
+.carousel-indicators [data-bs-target]{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+.modal-body{
+    p{
+        font-size: 1.2rem;
+        span{
+            font-weight: bold;
+            font-size: 1.6rem;
+            padding: 10% 0;
+            color: #2883C7;
+        }   
+    } 
+}
+.gradiente {
+    background: linear-gradient(whitesmoke 0.5% , #9DC9E0) ;
+}
+
+.indicador{
+    position: relative;
+    left: 4.5%;
+    span{
+        display: inline/block;
+        color: rgb(0, 166, 255);
+        font-size: 2rem;
+        margin: 5px;
+        line-height: 3rem;
+        position: relative;
+        top: 15px;
+    }
+}
+section h1 h2 h3{
+    color:rgb(0, 166, 255)}
+/* Tuve que ponerlo asi, "repetido" para especificar el h3, si no, no se por que no me abarcaba al h3 el color   */
+.encabezado{
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+    height: 90px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 999;
+    .indice{
+        min-width: 18%;
+        flex-direction: column;
+        .indiceUp{
+            flex-direction: row;
+            span{
+                color: rgb(0, 166, 255);
+                font-size: 2rem;
+                margin-top: 10px;
+                line-height: 3rem;
+            }
+        }
+        .indiceDown{
+            color: rgb(0, 166, 255);
+            font-size: 2rem;
+
+        }
+    }
+    .imgBan{
+        img{
+            border-radius: 0 0 15px 15px;
+            width:100%;
+        }
+    }
+}
+
+/*mediaQuery footer y prefooter */
+@media screen and (min-width: 768px) {
+    
+    .carousel{
+        z-index: 998;
+    }
+    .gradiente{
+        background: linear-gradient(whitesmoke 30%,#9DC9E0) ;
+    }
+    .preFooter{
+        /* color:#EE5541; */
+        font-family: QsandSemiBold;
+        font-size: 1.5rem;
+        text-align: center;
+        display: flex;
+        max-width: 100%;
+        flex-direction: row;
+        justify-content: space-around;
+        position:relative;
+        padding-top: 70px;
+        flex-wrap: wrap;
+        align-items: center;
+        span{
+            display: block;
+            margin: 0 10px 20px 20px;
+            color: #515151;
+            }
+    }
+    .card{
+        max-width: 33%;
+        color: #515151;
+        img{
+            width: 100%;
+            max-width: 60px;
+        }
+    }
+    footer{
+        width: 100%;
+        grid-template-areas: "futer1 futer2 futer3";
+        grid-template-columns: 1fr 1fr 1fr;
+        position: relative;
+        padding-top: 20px;
+        h2{
+            font-size: 2rem;
+        }
+        .futer1{
+            grid-area: futer1;
+            max-width: 100%;
+        }
+        .futer2{
+            grid-area: futer2;
+            .mediosPago{
+                width: 80%;
+                padding: 0;
+                li{
+                    width: 12.2%;
+                    margin: 1%;
+                    img{
+                        margin: 0;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        .futer3{
+            grid-area: futer3;
+        }
+        .foot{
+            padding: 10px 0 10px 0;
+            margin-top: 15px;
+        }
+    }
+    // Formulario de contacto
+    .formGrid .formRight .formRightBottom{
+        flex-direction: row;
+    }
+}
+/* / mediaQuery footer y prefooter*/
+
+
+.bread{
+    margin-top: 20px; 
+    padding-left: 0;
+    position: relative;
+    right: 8.1px;
+    li{
+        font-size: 2rem;
+    }
+}
