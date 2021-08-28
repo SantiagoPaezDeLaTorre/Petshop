@@ -487,7 +487,11 @@ footer .futer3 {
       justify-self: center;
 }
 
-footer .futer3 .line {
+footer .futer3 .contenidoF3 {
+  margin-left: 5%;
+}
+
+footer .futer3 .contenidoF3 .line {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -497,12 +501,12 @@ footer .futer3 .line {
           flex-direction: row;
 }
 
-footer .futer3 .line h3 {
+footer .futer3 .contenidoF3 .line h3 {
   padding: 4px 0px 4px 15px;
   margin-bottom: 0;
 }
 
-footer .futer3 .line h3:hover {
+footer .futer3 .contenidoF3 .line h3:hover {
   color: #2883C7;
 }
 

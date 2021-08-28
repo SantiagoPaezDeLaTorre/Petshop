@@ -68,15 +68,18 @@ footer{
     .futer3{
         grid-area: futer3;
         justify-self: center;
-        .line{
-            display: flex;
-            flex-direction: row;
-            h3{
-                padding: 4px 0px 4px 15px;
-                margin-bottom: 0;
-            }
-            h3:hover{
-                color: #2883C7;
+        .contenidoF3{
+            margin-left: 5%;
+            .line{
+                display: flex;
+                flex-direction: row;
+                h3{
+                    padding: 4px 0px 4px 15px;
+                    margin-bottom: 0;
+                }
+                h3:hover{
+                    color: #2883C7;
+                }
             }
         }
     }
