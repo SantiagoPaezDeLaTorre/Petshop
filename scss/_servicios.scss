@@ -4,16 +4,19 @@
     .sPic{
         position: relative;
         margin-top: 40px;
+        padding-inline: 2%;
         transition: all 2s;
+        width: 33%;
         p{
             transition: all 2s;
+            font-size: 2.5vw;
+            color: #1E5594;
         }
         img{
             width: 100%;
-            border-radius: 10px;}
-    }
-    .sPic2{
-        padding-inline: 6%;
+            border-radius: 10px;
+            min-width: 230px;
+        }
     }
     .sPic:hover{
         -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.1) 40%, #000 50%, rgba(0,0,0,.9) 70%); /*define la transparencia*/
@@ -25,7 +28,22 @@
     }
     .sPic:hover p{
         transform: translateX(13%);
-        color: red;
+        color: #2883C7;
+    }
+}
+
+@media screen and(min-width:890px) {
+    .servDiv{
+        margin-top: 20px;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        .sPic{
+            p{
+                font-size: 2rem;
+            }
+        }
+        
     }
 }
 
