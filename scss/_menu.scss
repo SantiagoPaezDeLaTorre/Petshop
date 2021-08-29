@@ -131,30 +131,14 @@
 }
 //  /Rotación de la patita en navbar pantallas chicas
 
-
-// Animacion lista navbar
-@keyframes fadeInMenu{
-    // 0% {
-    // transform: translateY(100%);
-    // }
-    // 100% {
-    // transform: translateX(0);
-    // }
-        0% {
-            opacity: 0;
-        }
-        100% {
-            opacity: 1;
-        }
-}
-
-// Animacion lista navbar
-
 /*mediaQuery navbar  */
 @media screen and (min-width: 992px) {
     #navegacion{
         background-color:#1E5594;
         color:#9DC9E0;
+        .navbar-nav{
+            width: 80%;
+        }
         .nav-link{
             color: #9DC9E0;
             font-family: Qsand;
@@ -195,22 +179,14 @@
             }
         }
     }
-    .spinningLogo{ 
-        img{
-            display: none;
+    form{
+        .buscador{
+            width: 200px;
         }
     }
+    
+
 }
-@media screen and (max-width: 400px){
-    .spinningLogo{
-        display: none;
-    }
-}
-// @media screen and (max-width: 560px){
-//     .spinningLogo{
-//         top: 35%;
-//     }
-// }
 @media screen and (max-width: 992px){
     .navbar-nav{
         .inicioDelay{
