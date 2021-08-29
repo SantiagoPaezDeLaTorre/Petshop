@@ -1391,7 +1391,7 @@ section h1 h2 h3 {
     z-index: 998;
   }
   .carousel .carousel-inner .carousel-item img {
-    border-radius: none;
+    border-radius: 0px;
   }
   .gradiente {
     background: -webkit-gradient(linear, left top, left bottom, color-stop(30%, whitesmoke), to(#9DC9E0));
