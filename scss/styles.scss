@@ -71,55 +71,20 @@ section{
     background: linear-gradient(whitesmoke 0.5% , #9DC9E0) ;
 }
 
-.indicador{
+.banner{
+    width: 100%;
     position: relative;
-    left: 4.5%;
-    span{
-        display: inline/block;
-        color: rgb(0, 166, 255);
-        font-size: 2rem;
-        margin: 5px;
-        line-height: 3rem;
-        position: relative;
-        top: 15px;
+    display: inline-block;  
+    z-index: 905;
+    img{
+        width: 100%;
+        border-radius: 0 0 30px 30px;
     }
 }
+
 section h1 h2 h3{
     color:rgb(0, 166, 255)}
 /* Tuve que ponerlo asi, "repetido" para especificar el h3, si no, no se por que no me abarcaba al h3 el color   */
-.encabezado{
-    display: flex;
-    flex-direction:row;
-    width: 100%;
-    height: 90px;
-    margin: 0 auto;
-    position: relative;
-    z-index: 999;
-    .indice{
-        min-width: 18%;
-        flex-direction: column;
-        .indiceUp{
-            flex-direction: row;
-            span{
-                color: rgb(0, 166, 255);
-                font-size: 2rem;
-                margin-top: 10px;
-                line-height: 3rem;
-            }
-        }
-        .indiceDown{
-            color: rgb(0, 166, 255);
-            font-size: 2rem;
-
-        }
-    }
-    .imgBan{
-        img{
-            border-radius: 0 0 15px 15px;
-            width:100%;
-        }
-    }
-}
 
 /*mediaQuery footer y prefooter */
 @media screen and (min-width: 768px) {
