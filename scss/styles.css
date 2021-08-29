@@ -435,6 +435,16 @@ footer .futer1 {
   margin: auto;
 }
 
+footer .futer1 .contenidoF1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 footer .futer1 h3:hover {
   color: #2883C7;
   -webkit-transition-duration: 0.3s;
