@@ -132,6 +132,13 @@ section h1 h2 h3{
 @media screen and (min-width: 768px) {
     .carousel{
         z-index: 998;
+        .carousel-inner{
+            .carousel-item{
+                img{
+                    border-radius: none;
+                }
+            }
+        }
     }
     .gradiente{
         background: linear-gradient(whitesmoke 30%,#9DC9E0) ;
