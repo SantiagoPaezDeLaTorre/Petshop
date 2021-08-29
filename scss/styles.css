@@ -197,6 +197,10 @@ section {
           animation: 0.8s opacityIn;
 }
 
+#navegacion .navbar-toggler {
+  border-radius: 40%;
+}
+
 #navegacion .navbar-collapse {
   background-color: whitesmoke;
   color: #1E5594;
@@ -1330,6 +1334,10 @@ p {
   z-index: 1000;
   -webkit-animation: 0.5s ease-in opacityIn;
           animation: 0.5s ease-in opacityIn;
+}
+
+.carousel .carousel-inner .carousel-item img {
+  border-radius: 15px;
 }
 
 #carouselExampleIndicators .carousel-indicators {

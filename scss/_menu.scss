@@ -10,6 +10,9 @@
     font-family: Qsand;
     border-radius: 15px 15px 0 0; 
     animation: 0.8s opacityIn;
+    .navbar-toggler{
+        border-radius: 40%;
+    }
     .navbar-collapse{
         background-color: whitesmoke;
         color: #1E5594;
