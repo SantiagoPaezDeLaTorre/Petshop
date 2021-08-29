@@ -209,11 +209,6 @@ section {
           justify-content: center;
 }
 
-#navegacion .navbar-collapse ul li {
-  -webkit-animation: 0.6s ease-out fadeIn;
-          animation: 0.6s ease-out fadeIn;
-}
-
 #navegacion .spinningLogo {
   position: absolute;
   display: block;
