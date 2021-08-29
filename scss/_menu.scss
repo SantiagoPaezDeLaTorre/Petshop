@@ -9,12 +9,16 @@
     position: relative;
     font-family: Qsand;
     border-radius: 15px 15px 0 0; 
+    animation: 0.8s opacityIn;
     .navbar-collapse{
         background-color: whitesmoke;
         color: #1E5594;
         margin-top: 5px;
         ul{
             justify-content: center;
+            li{
+                animation: 0.6s ease-out fadeIn ;
+            }
         }
     }
     //   imagen giratoria en menu de pantallas chicas

@@ -33,6 +33,40 @@ body{
 section{
     color: rgb(201, 34, 34);}
 
+// Animacion carousel
+@keyframes opacityIn{
+    0%{
+        opacity: 0;
+    }
+    30%{
+        opacity: 0.1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes fadeIn{
+    0%{
+        transform: scale(0);
+    }
+    90%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+@keyframes slideInFromUp {
+    0% {
+    transform: translateY(-100%);
+    }
+    80%{
+    transform: translateY(15%);
+    }
+    100% {
+    transform: translateY(0);
+    }
+}
 @import 'header';
 @import 'menu';
 @import 'prefooter';
@@ -47,6 +81,7 @@ section{
 
 .carousel{
     z-index: 1000;
+    animation: 0.5s ease-in opacityIn;
 }
 #carouselExampleIndicators .carousel-indicators{
     bottom: -42px;
@@ -75,6 +110,7 @@ section{
     position: relative;
     display: inline-block;  
     z-index: 905;
+    animation: 0.5s ease-in opacityIn;
     img{
         width: 100%;
         border-radius: 0 0 30px 30px;

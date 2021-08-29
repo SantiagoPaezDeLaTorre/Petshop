@@ -42,6 +42,90 @@ section {
   color: #c92222;
 }
 
+@-webkit-keyframes opacityIn {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes opacityIn {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  90% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  90% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@-webkit-keyframes slideInFromUp {
+  0% {
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+  }
+  80% {
+    -webkit-transform: translateY(15%);
+            transform: translateY(15%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes slideInFromUp {
+  0% {
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+  }
+  80% {
+    -webkit-transform: translateY(15%);
+            transform: translateY(15%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
 #header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -70,10 +154,17 @@ section {
 #header .headerIzquierda .logo {
   position: relative;
   max-width: 100%;
+  -webkit-animation: 0.6s ease-out slideInFromUp;
+          animation: 0.6s ease-out slideInFromUp;
 }
 
 #header .headerDerecha {
   max-width: 50%;
+}
+
+#header .headerDerecha .logIn {
+  -webkit-animation: 0.6s fadeIn;
+          animation: 0.6s fadeIn;
 }
 
 #header .headerDerecha .logIn a {
@@ -102,6 +193,8 @@ section {
   position: relative;
   font-family: Qsand;
   border-radius: 15px 15px 0 0;
+  -webkit-animation: 0.8s opacityIn;
+          animation: 0.8s opacityIn;
 }
 
 #navegacion .navbar-collapse {
@@ -114,6 +207,11 @@ section {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+#navegacion .navbar-collapse ul li {
+  -webkit-animation: 0.6s ease-out fadeIn;
+          animation: 0.6s ease-out fadeIn;
 }
 
 #navegacion .spinningLogo {
@@ -1235,6 +1333,8 @@ p {
 
 .carousel {
   z-index: 1000;
+  -webkit-animation: 0.5s ease-in opacityIn;
+          animation: 0.5s ease-in opacityIn;
 }
 
 #carouselExampleIndicators .carousel-indicators {
@@ -1268,6 +1368,8 @@ p {
   position: relative;
   display: inline-block;
   z-index: 905;
+  -webkit-animation: 0.5s ease-in opacityIn;
+          animation: 0.5s ease-in opacityIn;
 }
 
 .banner img {
