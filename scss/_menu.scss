@@ -20,23 +20,6 @@
         ul{
             justify-content: center;
         }
-    }
-    //   imagen giratoria en menu de pantallas chicas
-    .spinningLogo{
-        position: absolute;
-        display: block;
-        z-index: 900;
-        max-width: 25%;
-        top: 25%;
-        left: 5%;
-        -webkit-animation: rotation 2.5s infinite linear;
-        -moz-animation: rotation 2.5s infinite linear;
-        -ms-animation: rotation 2.5s infinite linear;
-        -o-animation: rotation 2.5s infinite linear;
-        animation: rotation 2.5s infinite linear;
-        img{
-            max-width: 100%;
-    }
 }
     .nav-link{
         opacity: 1;
@@ -181,7 +164,7 @@
     }
     form{
         .buscador{
-            width: 200px;
+            width: 190px;
         }
     }
     
@@ -218,8 +201,6 @@
             text-align: center;
         }
     }
-    
-    
 }
 /* /mediaQuery navbar  */
 

@@ -231,21 +231,6 @@ section {
           justify-content: center;
 }
 
-#navegacion .spinningLogo {
-  position: absolute;
-  display: block;
-  z-index: 900;
-  max-width: 25%;
-  top: 25%;
-  left: 5%;
-  -webkit-animation: rotation 2.5s infinite linear;
-  animation: rotation 2.5s infinite linear;
-}
-
-#navegacion .spinningLogo img {
-  max-width: 100%;
-}
-
 #navegacion .nav-link {
   opacity: 1;
   padding-top: 0;
@@ -389,7 +374,7 @@ section {
             transform: scale(1.4);
   }
   form .buscador {
-    width: 200px;
+    width: 190px;
   }
 }
 
@@ -1383,7 +1368,7 @@ section h1 h2 h3 {
 
 /* Tuve que ponerlo asi, "repetido" para especificar el h3, si no, no se por que no me abarcaba al h3 el color   */
 /*mediaQuery footer y prefooter */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
   .carousel {
     z-index: 998;
   }

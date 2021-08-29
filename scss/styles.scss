@@ -33,6 +33,7 @@ body{
 section{
     color: rgb(201, 34, 34);}
 
+// ANIMACIONES
 
 // Animacion lista navbar
 @keyframes fadeInMenu{
@@ -86,6 +87,8 @@ section{
     }
 }
 // /Animacion logo
+
+// /ANIMACIONES
 
 @import 'header';
 @import 'menu';
@@ -149,7 +152,7 @@ section h1 h2 h3{
 /* Tuve que ponerlo asi, "repetido" para especificar el h3, si no, no se por que no me abarcaba al h3 el color   */
 
 /*mediaQuery footer y prefooter */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
     .carousel{
         z-index: 998;
         .carousel-inner{
