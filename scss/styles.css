@@ -527,38 +527,38 @@ footer .futer3 .contenidoF3 .line h3:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-line-pack: distribute;
-      align-content: space-around;
-  font-size: 2rem;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-weight: bold;
   position: relative;
-  margin: 30px;
-  height: 280px;
+  width: 100%;
 }
 
 .perros .pPic, .perros .pPicMenosTranslateX {
   position: relative;
   margin-top: 40px;
-  padding-inline: 28px;
+  padding-inline: 2%;
   -webkit-transition: all 2s;
   transition: all 2s;
+  width: 33%;
 }
 
 .perros .pPic img, .perros .pPicMenosTranslateX img {
-  width: 300px;
+  width: 100%;
   border-radius: 10px;
+  min-width: 230px;
 }
 
 .perros .pPic p, .perros .pPicMenosTranslateX p {
   -webkit-transition: all 2s;
   transition: all 2s;
+  font-size: 2.5vw;
+  color: #1E5594;
 }
 
 .perros .pPic:hover, .perros .pPicMenosTranslateX:hover {
@@ -577,13 +577,30 @@ footer .futer3 .contenidoF3 .line h3:hover {
 .perros .pPic:hover p {
   -webkit-transform: translateX(30%);
           transform: translateX(30%);
-  color: red;
+  color: #2883C7;
 }
 
 .perros .pPicMenosTranslateX:hover p {
   -webkit-transform: translateX(18%);
           transform: translateX(18%);
-  color: red;
+  color: #2883C7;
+}
+
+@media screen and (min-width: 890px) {
+  .perros {
+    margin-top: 20px;
+    width: 100%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .perros .pPic p, .perros .pPicMenosTranslateX p {
+    font-size: 2rem;
+  }
 }
 
 @keyframes brillo {
@@ -610,38 +627,38 @@ footer .futer3 .contenidoF3 .line h3:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-line-pack: distribute;
-      align-content: space-around;
-  font-size: 2rem;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-weight: bold;
   position: relative;
-  margin: 30px;
-  height: 280px;
+  width: 100%;
 }
 
 .gatos .gPic, .gatos .gPicMenosTranslateX {
   position: relative;
   margin-top: 40px;
-  padding-inline: 25px;
+  padding-inline: 2%;
   -webkit-transition: all 2s;
   transition: all 2s;
+  width: 33%;
+}
+
+.gatos .gPic img, .gatos .gPicMenosTranslateX img {
+  width: 100%;
+  border-radius: 10px;
+  min-width: 230px;
 }
 
 .gatos .gPic p, .gatos .gPicMenosTranslateX p {
   -webkit-transition: all 2s;
   transition: all 2s;
-}
-
-.gatos .gPic img, .gatos .gPicMenosTranslateX img {
-  width: 300px;
-  border-radius: 10px;
+  font-size: 2.5vw;
+  color: #1E5594;
 }
 
 .gatos .gPic:hover, .gatos .gPicMenosTranslateX:hover {
@@ -660,13 +677,30 @@ footer .futer3 .contenidoF3 .line h3:hover {
 .gatos .gPic:hover p {
   -webkit-transform: translateX(30%);
           transform: translateX(30%);
-  color: red;
+  color: #2883C7;
 }
 
 .gatos .gPicMenosTranslateX:hover p {
   -webkit-transform: translateX(18%);
           transform: translateX(18%);
-  color: red;
+  color: #2883C7;
+}
+
+@media screen and (min-width: 890px) {
+  .gatos {
+    margin-top: 20px;
+    width: 100%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .gatos .gPic p, .gatos .gPicMenosTranslateX p {
+    font-size: 2rem;
+  }
 }
 
 /* el keyframe de brillo está en la seccion Perros */
@@ -676,41 +710,38 @@ footer .futer3 .contenidoF3 .line h3:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-line-pack: distribute;
-      align-content: space-around;
-  font-size: 2rem;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-weight: bold;
   position: relative;
-  margin: 30px;
-  height: 280px;
+  width: 100%;
 }
 
 .servDiv .sPic {
   position: relative;
   margin-top: 40px;
+  padding-inline: 2%;
   -webkit-transition: all 2s;
   transition: all 2s;
+  width: 33%;
 }
 
 .servDiv .sPic p {
   -webkit-transition: all 2s;
   transition: all 2s;
+  font-size: 2.5vw;
+  color: #1E5594;
 }
 
 .servDiv .sPic img {
   width: 100%;
   border-radius: 10px;
-}
-
-.servDiv .sPic2 {
-  padding-inline: 6%;
+  min-width: 230px;
 }
 
 .servDiv .sPic:hover {
@@ -729,7 +760,24 @@ footer .futer3 .contenidoF3 .line h3:hover {
 .servDiv .sPic:hover p {
   -webkit-transform: translateX(13%);
           transform: translateX(13%);
-  color: red;
+  color: #2883C7;
+}
+
+@media screen and (min-width: 890px) {
+  .servDiv {
+    margin-top: 20px;
+    width: 100%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .servDiv .sPic p {
+    font-size: 2rem;
+  }
 }
 
 /* el keyframe de brillo está en la seccion Perros */
@@ -1217,73 +1265,11 @@ p {
   background: linear-gradient(whitesmoke 0.5%, #9DC9E0);
 }
 
-.indicador {
-  position: relative;
-  left: 4.5%;
-}
-
-.indicador span {
-  display: inline/block;
-  color: #00a6ff;
-  font-size: 2rem;
-  margin: 5px;
-  line-height: 3rem;
-  position: relative;
-  top: 15px;
-}
-
 section h1 h2 h3 {
   color: #00a6ff;
 }
 
 /* Tuve que ponerlo asi, "repetido" para especificar el h3, si no, no se por que no me abarcaba al h3 el color   */
-.encabezado {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  width: 100%;
-  height: 90px;
-  margin: 0 auto;
-  position: relative;
-  z-index: 999;
-}
-
-.encabezado .indice {
-  min-width: 18%;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.encabezado .indice .indiceUp {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
-
-.encabezado .indice .indiceUp span {
-  color: #00a6ff;
-  font-size: 2rem;
-  margin-top: 10px;
-  line-height: 3rem;
-}
-
-.encabezado .indice .indiceDown {
-  color: #00a6ff;
-  font-size: 2rem;
-}
-
-.encabezado .imgBan img {
-  border-radius: 0 0 15px 15px;
-  width: 100%;
-}
-
 /*mediaQuery footer y prefooter */
 @media screen and (min-width: 768px) {
   .carousel {
@@ -1294,7 +1280,6 @@ section h1 h2 h3 {
     background: linear-gradient(whitesmoke 30%, #9DC9E0);
   }
   .preFooter {
-    /* color:#EE5541; */
     font-family: QsandSemiBold;
     font-size: 1.5rem;
     text-align: center;
@@ -1381,14 +1366,4 @@ section h1 h2 h3 {
 }
 
 /* / mediaQuery footer y prefooter*/
-.bread {
-  margin-top: 20px;
-  padding-left: 0;
-  position: relative;
-  right: 8.1px;
-}
-
-.bread li {
-  font-size: 2rem;
-}
 /*# sourceMappingURL=styles.css.map */

@@ -6,45 +6,27 @@
     z-index: 905;
     img{
         width: 100%;
-        border-radius: 0 0 30px 30px;}
-    // .marker{
-    //     position: absolute;
-    //     top: 17%;
-    //     left: 6.25%;
-    //     p{
-    //         font-family: Qsand;
-    //         font-size: 1.2vw;
-    //         font-weight: lighter;
-    //         color: #c6e9fc;
-    //         a{  
-    //             color: inherit;
-    //             text-decoration: none;
-    //             font-size: 3.2rem;
-    //         }
-    //         a:hover{
-    //             color: whitesmoke;
-    //             transition-duration: 1s;
-    //         }
-    //     }
-    // }
+        border-radius: 0 0 30px 30px;
+    }
 }
-
-
-
 
 .perros{
     @include indices;
     .pPic, .pPicMenosTranslateX{
         position: relative;
         margin-top: 40px;
-        padding-inline: 28px;
+        padding-inline: 2%;
         transition: all 2s;
+        width: 33%;
         img{
-            width: 300px;
+            width: 100%;
             border-radius: 10px;
+            min-width: 230px;
         }
         p{
             transition: all 2s;
+            font-size: 2.5vw;
+            color: #1E5594;
         }
     }
     .pPic:hover, .pPicMenosTranslateX:hover{
@@ -57,11 +39,25 @@
     }
     .pPic:hover p{
         transform: translateX(30%);
-        color: red;
+        color: #2883C7;
     }
     .pPicMenosTranslateX:hover p{
         transform: translateX(18%);
-        color: red;
+        color: #2883C7;
+    }
+}
+@media screen and(min-width:890px) {
+    .perros{
+        margin-top: 20px;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        .pPic, .pPicMenosTranslateX{
+            p{
+                font-size: 2rem;
+            }
+        }
+        
     }
 }
 
