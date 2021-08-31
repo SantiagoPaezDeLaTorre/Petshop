@@ -1337,6 +1337,7 @@ p {
   z-index: 905;
   -webkit-animation: 0.5s ease-in opacityIn;
           animation: 0.5s ease-in opacityIn;
+  border-top: #1E5594 2px solid;
 }
 
 .banner img {
