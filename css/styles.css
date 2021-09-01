@@ -308,6 +308,7 @@ section {
 
 /* /mediaQuery navbar  */
 .preFooter {
+  animation: 0.5s ease-in opacityIn;
   font-family: QsandSemiBold;
   font-size: 1.5rem;
   text-align: center;
@@ -344,6 +345,7 @@ section {
 }
 
 footer {
+  animation: 0.5s ease-in opacityIn;
   width: 100%;
   display: grid;
   grid-template-areas: "futer1" "futer2" "futer3";
@@ -597,6 +599,7 @@ footer .futer3 .contenidoF3 .line h3:hover {
   font-weight: bold;
   position: relative;
   width: 100%;
+  animation: 0.5s ease-in opacityIn;
 }
 
 .servDiv .sPic {
@@ -1063,6 +1066,18 @@ section h1 h2 h3 {
 }
 
 /* Tuve que ponerlo asi, "repetido" para especificar el h3, si no, no se por que no me abarcaba al h3 el color   */
+.enConstruccion {
+  width: 100%;
+  padding-top: 5%;
+  animation: 0.5s ease-in opacityIn;
+}
+
+.enConstruccion img {
+  max-width: 40%;
+  display: block;
+  margin: auto;
+}
+
 /*mediaQuery footer y prefooter */
 @media screen and (min-width: 992px) {
   .carousel {

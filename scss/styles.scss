@@ -152,6 +152,17 @@ section h1 h2 h3{
     color:rgb(0, 166, 255)}
 /* Tuve que ponerlo asi, "repetido" para especificar el h3, si no, no se por que no me abarcaba al h3 el color   */
 
+.enConstruccion{
+    width: 100%;
+    padding-top: 5%;
+    animation: 0.5s ease-in opacityIn;
+    img{
+        max-width: 40%;
+        display: block;
+        margin: auto;
+    }
+}
+
 /*mediaQuery footer y prefooter */
 @media screen and (min-width: 992px) {
     .carousel{

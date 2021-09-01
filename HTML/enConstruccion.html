@@ -4,24 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Garritas PetShop</title>
-    <meta name="description" content="Todo lo que necesitas para tus mascotas en un sólo lugar. Alimentos, estética, higiene, salud, juguetes, guardería y más!">
+    <title>GarritasPetShop - Vuelva pronto!</title>
+    <meta name="description" content="Todo lo que necesitas para tu perrito en un sólo lugar. Alimentos, estética, higiene, juguetes y snacks!">
     <meta name="keywords" content="petshop,mascotas,alimento para perro,alimento para gato,veterinaria,peluqueria canina,guarderia animal,tienda para mascotas,garritas">
-    <meta namne="robots" content="index">
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/styles.css">
-    <style></style>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
-
 <body>
 <div class="container">
-
 <!-- Header -->
     <header id="header">
         <div class="headerIzquierda">
             <div>
-                <a href="./index.html">
-                    <img class="logo" src="./Imag/logo.png" alt="logo">
+                <a href="../index.html">
+                    <img class="logo" src="../Imag/logo.png" alt="logo">
                 </a>
             </div> 
         </div> 
@@ -34,111 +30,88 @@
 <!-- /Header -->
 
 <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light" id="navegacion">
-            <div class="container-fluid p-0">
-                <button class="navbar-toggler btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-0 mb-2 mb-lg-0 justify-content-evenly">
-                        <li class="nav-item">
-                            <a class="nav-link active inicioDelay" aria-current="page" href="./index.html">INICIO</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle perrosDelay" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                PERROS
-                            </a>
-                            <ul class="dropdown-menu m-auto" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item m-auto" href="./HTML/perros.html">INDICE CANINO</a></li>
-                                <li><hr>
-                                <li><a class="dropdown-item m-auto" href="./HTML/enConstruccion.html">Estética e higiene</a></li>
-                                <li><a class="dropdown-item m-auto" href="./HTML/enConstruccion.html">Juguetes y snacks</a></li>
-                                <li><a class="dropdown-item m-auto" href="./HTML/enConstruccion.html">Alimentos</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle gatosDelay" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            GATOS
-                            </a>
-                            <ul class="dropdown-menu m-auto" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item m-auto" href="./HTML/gatos.html">INDICE FELINO</a></li>
-                                <li><hr>
-                                <li><a class="dropdown-item m-auto" href="./HTML/enConstruccion.html">Estética e higiene</a></li>
-                                <li><a class="dropdown-item m-auto" href="./HTML/enConstruccion.html">Juguetes y snacks</a></li>
-                                <li><a class="dropdown-item m-auto" href="./HTML/enConstruccion.html">Alimentos</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle serviciosDelay" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            SERVICIOS
-                            </a>
-                            <ul class="dropdown-menu m-auto" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item m-auto" href="./HTML/servicios.html">INDICE DE SERVICIOS</a></li>
-                                <li><hr>
-                                <li><a class="dropdown-item m-auto" href="./HTML/enConstruccion.html">Atención veterinaria</a></li>
-                                <li><a class="dropdown-item m-auto" href="./HTML/enConstruccion.html">Peluquería canina</a></li>
-                                <li><a class="dropdown-item m-auto" href="./HTML/enConstruccion.html">Guardería</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link contactoDelay" href="./HTML/contacto.html">CONTACTO</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex">
-                        <input class="form-control me-2 buscador" type="search" placeholder="Buscador" aria-label="Search">
-                        <button class="btn btnBuscar btn-outline-success me-1" type="submit">Buscar</button>
-                    </form>
-                </div>
+    <nav class="navbar navbar-expand-lg navbar-light" id="navegacion">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-0 mb-2 mb-lg-0 justify-content-evenly w-100">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle perrosDelay" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            PERROS
+                        </a>
+                        <ul class="dropdown-menu m-auto" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item  m-auto" href="./perros.html">INDICE CANINO</a></li>
+                            <li><hr>
+                            <li><a class="dropdown-item m-auto" href="#">Estética e higiene</a></li>
+                            <li><a class="dropdown-item m-auto" href="#">Juguetes y snacks</a></li>
+                            <li><a class="dropdown-item m-auto" href="#">Alimentos</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle gatosDelay" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        GATOS
+                        </a>
+                        <ul class="dropdown-menu m-auto" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item m-auto" href="../HTML/gatos.html">INDICE FELINO</a></li>
+                            <li><hr>
+                            <li><a class="dropdown-item m-auto" href="#">Estética e higiene</a></li>
+                            <li><a class="dropdown-item m-auto" href="#">Juguetes y snacks</a></li>
+                            <li><a class="dropdown-item m-auto" href="#">Alimentos</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle serviciosDelay" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        SERVICIOS
+                        </a>
+                        <ul class="dropdown-menu m-auto" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item m-auto" href="../HTML/servicios.html">INDICE DE SERVICIOS</a></li>
+                            <li><hr>
+                            <li><a class="dropdown-item m-auto" href="#">Atención veterinaria</a></li>
+                            <li><a class="dropdown-item m-auto" href="#">Peluquería canina</a></li>
+                            <li><a class="dropdown-item m-auto" href="#">Guardería</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link contactoDelay" href="../HTML/contacto.html">CONTACTO</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2 buscador" type="search" placeholder="Buscador" aria-label="Search">
+                    <button class="btn btnBuscar btn-outline-success me-1" type="submit">Buscar</button>
+                </form>
             </div>
+        </div>
         </nav>
 <!-- /Navbar -->
 
-<!-- Carousel -->
-    <div id="carouselExampleIndicators" class="carousel carousel-dark slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="./Imag/slide1.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="./Imag/slide3.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="./Imag/slide2.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="./Imag/slide4.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="./Imag/slide5.jpg" class="d-block w-100" alt="...">
-            </div>
-        </div>
+    <div class="enConstruccion">
+        <img src="../Imag/construccion2.png" alt="en construccion">
     </div>
-<!-- /Carousel -->
-
-<!-- Prefooter -->
-    <section class="preFooter">
-        <div class="card">
-            <img src="./Imag/iconEnvio.png" alt="Envío">
-            <span>Envíos sin cargo</span> 
-        </div>
-        <div class="card">
-            <img src="./Imag/iconMedios.png" alt="Medios de pago">
-            <span>Todos los medios de pago</span> 
-        </div>
-        <div class="card">
-            <img src="./Imag/iconSegura.png" alt="Compra segura">
-            <span>Compra 100% segura</span>
-        </div>   
-    </section>
-<!-- /Prefooter -->
 </div>
+
+    <div class="container">
+        <!-- Prefooter -->
+        <section class="preFooter">
+            <div class="card">
+                <img src="../Imag/iconEnvio.png" alt="Envío">
+                <span>Envíos sin cargo</span> 
+            </div>
+            <div class="card">
+                <img src="../Imag/iconMedios.png" alt="Medios de pago">
+                <span>Todos los medios de pago</span> 
+            </div>
+            <div class="card">
+                <img src="../Imag/iconSegura.png" alt="Compra segura">
+                <span>Compra 100% segura</span>
+            </div>   
+        </section>
+        <!-- /Prefooter -->
+    </div>
 
 <!-- Footer -->
 <div class="gradiente">
@@ -199,9 +172,9 @@
                     <h2>Contactanos</h2>
                     <!-- Lista contacto -->
                     <div class="contenidoF contenidoF3">
-                        <div class="line"><img src="./Imag/telephone.svg" alt=""><h3>0810-GAR-RITA (427-7482)</h3></div>
-                        <div class="line"><img src="./Imag/envelope.svg" alt=""><h3>contacto@garritaspetshop.com</h3></div>
-                        <div class="line"><img src="./Imag/geo-alt.svg" alt=""><h3>Av. Colón 2100, Mar del Plata</h3></div>
+                        <div class="line"><img src="../Imag/telephone.svg" alt=""><h3>0810-GAR-RITA (427-7482)</h3></div>
+                        <div class="line"><img src="../Imag/envelope.svg" alt=""><h3>contacto@garritaspetshop.com</h3></div>
+                        <div class="line"><img src="../Imag/geo-alt.svg" alt=""><h3>Av. Colón 2100, Mar del Plata</h3></div>
                     </div>
                 </div>
             </section>
@@ -283,9 +256,10 @@
             </div>
         </div>
     </div>
-    
+
+
 </div>
 
-<script src="./Js/bootstrap.min.js"></script>
+<script src="../Js/bootstrap.min.js"></script>
 </body>
 </html>
