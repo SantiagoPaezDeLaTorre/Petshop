@@ -1,92 +1,4 @@
 @charset "UTF-8";
-* {
-  margin: 0;
-  padding: 0;
-}
-
-@font-face {
-  font-family: Qsand;
-  src: url(../HTML/Fuentes/Quicksand-VariableFont_wght.ttf);
-}
-
-@font-face {
-  font-family: QsandBold;
-  src: url(../HTML/Fuentes/static/Quicksand-Bold.ttf);
-}
-
-@font-face {
-  font-family: QsandSemiBold;
-  src: url(../HTML/Fuentes/static/Quicksand-SemiBold.ttf);
-}
-
-@font-face {
-  font-family: QsandLight;
-  src: url(../HTML/Fuentes/static/Quicksand-Light.ttf);
-}
-
-html {
-  font-size: 67.5%;
-}
-
-body {
-  font-family: Qsand, Arial, Helvetica, sans-serif;
-  background-color: whitesmoke;
-}
-
-.container {
-  max-width: 85%;
-  margin: 0 auto;
-}
-
-section {
-  color: #c92222;
-}
-
-@keyframes fadeInMenu {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes opacityIn {
-  0% {
-    opacity: 0;
-  }
-  30% {
-    opacity: 0.1;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes fadeIn {
-  0% {
-    transform: scale(0);
-  }
-  90% {
-    transform: scale(1.1);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-
-@keyframes slideInFromUp {
-  0% {
-    transform: translateY(-100%);
-  }
-  80% {
-    transform: translateY(15%);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
-
 #header {
   display: flex;
   flex-direction: row;
@@ -951,6 +863,11 @@ footer .futer3 .contenidoF3 .line h3:hover {
 }
 
 /* /CONTACTO */
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .body404 {
   font-family: Qsand;
   background-image: linear-gradient(-225deg, #474B7B 0%, #3584A7 51%, #30D2BE 100%);
@@ -1011,6 +928,89 @@ p {
 .redirigir a:hover {
   color: whitesmoke;
   transition: 1.3s;
+}
+
+@font-face {
+  font-family: Qsand;
+  src: url(../HTML/Fuentes/Quicksand-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: QsandBold;
+  src: url(../HTML/Fuentes/static/Quicksand-Bold.ttf);
+}
+
+@font-face {
+  font-family: QsandSemiBold;
+  src: url(../HTML/Fuentes/static/Quicksand-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: QsandLight;
+  src: url(../HTML/Fuentes/static/Quicksand-Light.ttf);
+}
+
+html {
+  font-size: 67.5%;
+}
+
+body {
+  font-family: Qsand, Arial, Helvetica, sans-serif;
+  background-color: whitesmoke;
+}
+
+.container {
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+section {
+  color: #c92222;
+}
+
+@keyframes fadeInMenu {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes opacityIn {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    transform: scale(0);
+  }
+  90% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes slideInFromUp {
+  0% {
+    transform: translateY(-100%);
+  }
+  80% {
+    transform: translateY(15%);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 .carousel {

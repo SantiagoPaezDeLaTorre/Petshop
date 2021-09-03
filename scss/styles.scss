@@ -1,7 +1,15 @@
-*{ 
-    margin: 0;
-    padding: 0;
-}
+@import 'header';
+@import 'menu';
+@import 'prefooter';
+@import 'footer';
+@import 'mixins';
+@import 'perros';
+@import 'gatos';
+@import 'servicios';
+@import 'contactos';
+@import 'colores';
+@import 'error';
+
 @font-face {
     font-family: Qsand;
     src: url(../HTML/Fuentes/Quicksand-VariableFont_wght.ttf);
@@ -89,18 +97,6 @@ section{
 // /Animacion logo
 
 // /ANIMACIONES
-
-@import 'header';
-@import 'menu';
-@import 'prefooter';
-@import 'footer';
-@import 'mixins';
-@import 'perros';
-@import 'gatos';
-@import 'servicios';
-@import 'contactos';
-@import 'colores';
-@import 'error';
 
 .carousel{
     z-index: 1000;
