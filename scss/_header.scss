@@ -6,7 +6,7 @@
     height: 100px;
     max-width: 100%;
     background-color: whitesmoke;
-    font-size: 1.4rem;
+    font-size: 2rem;
     margin-bottom: 2%;
     .headerIzquierda{
         max-width: 360px;
@@ -26,19 +26,4 @@
             }
         }
     }
-}
-
-@media screen and(min-width: 768px) {
-    #header{
-        font-size: 2rem;
-    }
-    .headerDerecha{
-        .logIn{
-            a{
-                color: rgb(112, 112, 112);
-                text-decoration: none;
-            }
-        }
-    }
-    
 }

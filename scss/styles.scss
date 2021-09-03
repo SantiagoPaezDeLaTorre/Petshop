@@ -1,3 +1,4 @@
+@import 'fuentes';
 @import 'header';
 @import 'menu';
 @import 'prefooter';
@@ -9,23 +10,9 @@
 @import 'contactos';
 @import 'colores';
 @import 'error';
+@import 'querys';
+@import 'animaciones';
 
-@font-face {
-    font-family: Qsand;
-    src: url(../HTML/Fuentes/Quicksand-VariableFont_wght.ttf);
-    }
-@font-face {
-    font-family: QsandBold;
-    src: url(../HTML/Fuentes/static/Quicksand-Bold.ttf);
-    }
-@font-face {
-    font-family: QsandSemiBold;
-    src: url(../HTML/Fuentes/static/Quicksand-SemiBold.ttf);
-    }
-@font-face {
-    font-family: QsandLight;
-    src: url(../HTML/Fuentes/static/Quicksand-Light.ttf)
-}
 html{
     font-size: 67.5%;
 }
@@ -37,66 +24,9 @@ body{
     max-width: 85%;
     margin: 0 auto;
 }
-
 section{
-    color: rgb(201, 34, 34);}
-
-// ANIMACIONES
-
-// Animacion lista navbar
-@keyframes fadeInMenu{
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+    color: rgb(201, 34, 34);
 }
-// Animacion lista navbar
-
-// Animacion carousel
-@keyframes opacityIn{
-    0%{
-        opacity: 0;
-    }
-    30%{
-        opacity: 0.1;
-    }
-    100%{
-        opacity: 1;
-    }
-}
-// /Animacion carousel
-
-// Animacion login
-@keyframes fadeIn{
-    0%{
-        transform: scale(0);
-    }
-    90%{
-        transform: scale(1.1);
-    }
-    100%{
-        transform: scale(1);
-    }
-}
-// /Animacion login
-
-// Animacion logo
-@keyframes slideInFromUp {
-    0% {
-    transform: translateY(-100%);
-    }
-    80%{
-    transform: translateY(15%);
-    }
-    100% {
-    transform: translateY(0);
-    }
-}
-// /Animacion logo
-
-// /ANIMACIONES
 
 .carousel{
     z-index: 1000;
@@ -116,6 +46,17 @@ section{
     width: 10px;
     height: 10px;
     border-radius: 100%;
+}
+@media  screen and (min-width: 992px) {
+    .carousel{
+        .carousel-inner{
+            .carousel-item{
+                img{
+                    border-radius: 0 0 15px 15px;
+                }
+            }
+        }
+    }
 }
 .modal-body{
     p{
@@ -159,86 +100,3 @@ section h1 h2 h3{
     }
 }
 
-/*mediaQuery footer y prefooter */
-@media screen and (min-width: 992px) {
-    .carousel{
-        z-index: 998;
-        .carousel-inner{
-            .carousel-item{
-                img{
-                    border-radius: 0 0 15px 15px;
-                }
-            }
-        }
-    }
-    .gradiente{
-        background: linear-gradient(whitesmoke 30%,#9DC9E0) ;
-    }
-    .preFooter{
-        font-family: QsandSemiBold;
-        font-size: 1.5rem;
-        text-align: center;
-        display: flex;
-        max-width: 100%;
-        flex-direction: row;
-        justify-content: space-around;
-        position:relative;
-        padding-top: 70px;
-        flex-wrap: wrap;
-        align-items: center;
-        span{
-            display: block;
-            margin: 0 10px 20px 20px;
-            color: #515151;
-            }
-    }
-    .card{
-        max-width: 33%;
-        color: #515151;
-        img{
-            width: 100%;
-            max-width: 60px;
-        }
-    }
-    footer{
-        width: 100%;
-        grid-template-areas: "futer1 futer2 futer3";
-        grid-template-columns: 1fr 1fr 1fr;
-        position: relative;
-        padding-top: 20px;
-        h2{
-            font-size: 2rem;
-        }
-        .futer1{
-            grid-area: futer1;
-            max-width: 100%;
-        }
-        .futer2{
-            grid-area: futer2;
-            .mediosPago{
-                width: 80%;
-                padding: 0;
-                li{
-                    width: 12.2%;
-                    margin: 1%;
-                    img{
-                        margin: 0;
-                        width: 100%;
-                    }
-                }
-            }
-        }
-        .futer3{
-            grid-area: futer3;
-        }
-        .foot{
-            padding: 10px 0 10px 0;
-            margin-top: 15px;
-        }
-    }
-    // Formulario de contacto
-    .formGrid .formRight .formRightBottom{
-        flex-direction: row;
-    }
-}
-/* / mediaQuery footer y prefooter*/
