@@ -1,11 +1,11 @@
 // GATOS
 @media screen and(min-width:890px) {
-    .gatos, .perros, .servDiv{
+    .perrosGatos, .servDiv{
         margin-top: 20px;
         width: 100%;
         flex-direction: row;
         justify-content: space-between;
-        .gPic, .gPicMenosTranslateX, .pPic, .pPicMenosTranslateX, .sPic{
+        .pic, .picMenosTranslateX, .sPic{
             p{
                 font-size: 2rem;
             }
