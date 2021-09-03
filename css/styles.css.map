@@ -9,7 +9,7 @@
         "../scss/_prefooter.scss",
         "../scss/_footer.scss",
         "../scss/_mixins.scss",
-        "../scss/_perros.scss",
+        "../scss/_perrosGatos.scss",
         "../scss/_servicios.scss",
         "../scss/_contactos.scss",
         "../scss/_colores.scss",
