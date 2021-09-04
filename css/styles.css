@@ -730,6 +730,9 @@ p {
     padding: 10px 0 10px 0;
     margin-top: 15px;
   }
+  footer .foot h3 {
+    font-size: 1.8rem;
+  }
 }
 
 /* / mediaQuery footer y prefooter*/
