@@ -302,6 +302,10 @@ footer .futer3 .contenidoF3 .line h3:hover {
   width: 100%;
 }
 
+.perrosGatosServicios a {
+  text-decoration: none;
+}
+
 .perrosGatosServicios .pic, .perrosGatosServicios .picMenosTranslateX {
   position: relative;
   margin-top: 40px;
@@ -341,6 +345,10 @@ footer .futer3 .contenidoF3 .line h3:hover {
 .perrosGatosServicios .picMenosTranslateX:hover p {
   transform: translateX(18%);
   color: #2883C7;
+}
+
+.perrosGatosServicios .spic:hover p {
+  transform: translateX(10%);
 }
 
 @keyframes brillo {

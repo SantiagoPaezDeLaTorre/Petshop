@@ -6,6 +6,9 @@
     font-weight: bold;
     position: relative;
     width: 100%;
+    a{
+        text-decoration: none;
+    }
     .pic, .picMenosTranslateX{
         position: relative;
         margin-top: 40px;
@@ -38,6 +41,9 @@
     .picMenosTranslateX:hover p{
         transform: translateX(18%);
         color: #2883C7;
+    }
+    .spic:hover p{
+        transform: translateX(10%);
     }
 }
 
