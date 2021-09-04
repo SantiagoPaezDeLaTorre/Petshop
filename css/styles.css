@@ -293,7 +293,7 @@ footer .futer3 .contenidoF3 .line h3:hover {
   color: #2883C7;
 }
 
-/* PERROS y GATOS */
+/* PERROS GATOS y SERVICIOS */
 .perrosGatosServicios {
   display: flex;
   flex-direction: column;
@@ -308,13 +308,13 @@ footer .futer3 .contenidoF3 .line h3:hover {
   margin-top: 40px;
   padding-inline: 2%;
   transition: all 2s;
-  width: 33%;
+  width: 50%;
 }
 
 .perrosGatosServicios .pic img, .perrosGatosServicios .picMenosTranslateX img {
   width: 100%;
   border-radius: 10px;
-  min-width: 230px;
+  min-width: 180px;
 }
 
 .perrosGatosServicios .pic p, .perrosGatosServicios .picMenosTranslateX p {
@@ -353,39 +353,6 @@ footer .futer3 .contenidoF3 .line h3:hover {
   }
 }
 
-/* /PERROS */
-/* Atencion veterinaria */
-.imgBanner {
-  display: block;
-  margin-left: 56px;
-  margin-right: auto;
-  margin-top: 50px;
-}
-
-/* tabla */
-.tablaVeterinaria {
-  color: #d1ad93;
-  background-color: darkcyan;
-  width: 320px;
-  height: 100px;
-  position: relative;
-  left: 32px;
-  top: 25px;
-  text-align: center;
-  padding: 10px;
-  margin: 25px;
-  font-weight: lighter;
-}
-
-.tablaVeterinaria thead {
-  color: #16b4a7;
-  font-weight: bolder;
-  letter-spacing: 1px;
-}
-
-/* /tabla */
-/* /Atencion veterinaria */
-/* /SERVICIOS */
 .formDiv {
   margin-top: 5%;
   font-size: 2.5vw;
@@ -594,15 +561,24 @@ p {
   transition: 1.3s;
 }
 
-@media screen and (min-width: 890px) {
+@media screen and (min-width: 768px) {
   .perrosGatosServicios {
     margin-top: 20px;
     width: 100%;
     flex-direction: row;
     justify-content: space-between;
   }
+  .perrosGatosServicios .pic, .perrosGatosServicios .picMenosTranslateX {
+    width: 33%;
+  }
   .perrosGatosServicios .pic p, .perrosGatosServicios .picMenosTranslateX p {
-    font-size: 2rem;
+    font-size: 2vw;
+  }
+}
+
+@media screen and (max-width: 462px) {
+  .perrosGatosServicios {
+    align-items: flex-start;
   }
 }
 

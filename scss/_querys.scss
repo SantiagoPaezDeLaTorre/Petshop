@@ -1,15 +1,21 @@
-// GATOS
-@media screen and(min-width:890px) {
+// Perros gatos y servicios
+@media screen and(min-width:768px) {
     .perrosGatosServicios{
         margin-top: 20px;
         width: 100%;
         flex-direction: row;
         justify-content: space-between;
         .pic, .picMenosTranslateX{
+            width: 33%;
             p{
-                font-size: 2rem;
+                font-size: 2vw;
             }
         }
+    }
+}
+@media screen and (max-width:462px) {
+    .perrosGatosServicios{
+        align-items: flex-start;
     }
 }
 
