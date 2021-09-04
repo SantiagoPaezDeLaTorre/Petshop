@@ -54,7 +54,6 @@
 }
 
 #navegacion {
-  font-size: 2vw;
   padding: 10px 0 4px 0;
   background-color: whitesmoke;
   color: whitesmoke;
@@ -585,6 +584,7 @@ p {
 /*mediaQuery navbar  */
 @media screen and (min-width: 768px) {
   #navegacion {
+    font-size: 2vw;
     background-color: #1E5594;
     color: #9DC9E0;
   }
@@ -638,26 +638,32 @@ p {
   }
 }
 
-@media screen and (max-width: 768px) {
-  .navbar-nav .inicioDelay {
+@media screen and (max-width: 767px) {
+  #navegacion {
+    font-size: 3vw;
+  }
+  #navegacion .navbar-nav .dropdown-item {
+    font-size: 1.6vw;
+  }
+  #navegacion .navbar-nav .inicioDelay {
     animation: 1.25s fadeInMenu;
   }
-  .navbar-nav .perrosDelay {
+  #navegacion .navbar-nav .perrosDelay {
     animation: 1.5s fadeInMenu;
   }
-  .navbar-nav .gatosDelay {
+  #navegacion .navbar-nav .gatosDelay {
     animation: 1.8s fadeInMenu;
   }
-  .navbar-nav .serviciosDelay {
+  #navegacion .navbar-nav .serviciosDelay {
     animation: 2.1s fadeInMenu;
   }
-  .navbar-nav .contactoDelay {
+  #navegacion .navbar-nav .contactoDelay {
     animation: 2.3s fadeInMenu;
   }
-  .navbar-collapse .navbar-nav li {
+  #navegacion .navbar-collapse .navbar-nav li {
     text-align: center;
   }
-  .navbar-collapse .dropdown-menu a {
+  #navegacion .navbar-collapse .dropdown-menu a {
     text-align: center;
   }
 }

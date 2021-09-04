@@ -22,6 +22,7 @@
 /*mediaQuery navbar  */
 @media screen and (min-width: 768px) {
     #navegacion{
+        font-size: 2vw;
         background-color:#1E5594;
         color:#9DC9E0;
         .navbar-nav{
@@ -76,32 +77,39 @@
         }
     }
 }
-@media screen and (max-width: 768px){
-    .navbar-nav{
-        .inicioDelay{
-            animation: 1.25s fadeInMenu;
+@media screen and (max-width: 767px){
+    #navegacion{
+        font-size: 3vw;
+        .navbar-nav{
+            .dropdown-item{
+                font-size: 1.6vw;
+            }
+            .inicioDelay{
+                animation: 1.25s fadeInMenu;
+            }
+            .perrosDelay{
+                animation: 1.5s fadeInMenu;
+            }
+            .gatosDelay{
+                animation: 1.8s fadeInMenu;
+            }
+            .serviciosDelay{
+                animation: 2.1s fadeInMenu;
+            }
+            .contactoDelay{
+                animation: 2.3s fadeInMenu;
+            }
         }
-        .perrosDelay{
-            animation: 1.5s fadeInMenu;
-        }
-        .gatosDelay{
-            animation: 1.8s fadeInMenu;
-        }
-        .serviciosDelay{
-            animation: 2.1s fadeInMenu;
-        }
-        .contactoDelay{
-            animation: 2.3s fadeInMenu;
+        .navbar-collapse{
+            .navbar-nav li{
+                text-align: center;
+            }
+            .dropdown-menu a{
+                text-align: center;
+            }
         }
     }
-    .navbar-collapse{
-        .navbar-nav li{
-            text-align: center;
-        }
-        .dropdown-menu a{
-            text-align: center;
-        }
-    }
+    
 }
 /* /mediaQuery navbar  */
 
