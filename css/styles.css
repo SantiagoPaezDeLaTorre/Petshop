@@ -616,7 +616,6 @@ p {
     width: 147px;
   }
   .perrosGatosServicios {
-    margin-top: 20px;
     width: 100%;
     flex-direction: row;
     justify-content: space-between;
