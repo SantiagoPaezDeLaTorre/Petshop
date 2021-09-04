@@ -44,7 +44,7 @@ section{
     height: 10px;
     border-radius: 100%;
 }
-@media  screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
     .carousel{
         .carousel-inner{
             .carousel-item{
@@ -75,10 +75,16 @@ section{
     display: inline-block;  
     z-index: 905;
     animation: 0.5s ease-in opacityIn;
-    border-top: #1E5594 2px solid;
     img{
         width: 100%;
-        border-radius: 0 0 30px 30px;
+        border-radius: 12px 12px 30px 30px;
+    }
+}
+@media screen and(min-width:768px) {
+    .banner{
+        img{
+            border-radius: 0 0 30px 30px;
+        }
     }
 }
 
