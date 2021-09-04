@@ -54,7 +54,7 @@
 }
 
 #navegacion {
-  font-size: 2rem;
+  font-size: 2vw;
   padding: 10px 0 4px 0;
   background-color: whitesmoke;
   color: whitesmoke;
@@ -583,7 +583,7 @@ p {
 }
 
 /*mediaQuery navbar  */
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 768px) {
   #navegacion {
     background-color: #1E5594;
     color: #9DC9E0;
@@ -634,11 +634,11 @@ p {
     transform: scale(1.4);
   }
   form .buscador {
-    width: 190px;
+    width: 147px;
   }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
   .navbar-nav .inicioDelay {
     animation: 1.25s fadeInMenu;
   }
@@ -942,7 +942,7 @@ section {
   border-radius: 100%;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 768px) {
   .carousel .carousel-inner .carousel-item img {
     border-radius: 0 0 15px 15px;
   }
