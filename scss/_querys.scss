@@ -1,25 +1,4 @@
-// Perros gatos y servicios
-@media screen and(min-width:768px) {
-    .perrosGatosServicios{
-        margin-top: 20px;
-        width: 100%;
-        flex-direction: row;
-        justify-content: space-between;
-        .pic, .picMenosTranslateX{
-            width: 33%;
-            p{
-                font-size: 2vw;
-            }
-        }
-    }
-}
-@media screen and (max-width:462px) {
-    .perrosGatosServicios{
-        align-items: flex-start;
-    }
-}
-
-/*mediaQuery navbar  */
+/*mediaQuery navbar + perrosGatosServicios */
 @media screen and (min-width: 768px) {
     #navegacion{
         font-size: 2vw;
@@ -76,7 +55,27 @@
             width: 147px;
         }
     }
+
+    // PERROS GATOS Y SERVICIOS
+    .perrosGatosServicios{
+        margin-top: 20px;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        .pic, .picMenosTranslateX{
+            width: 33%;
+            p{
+                font-size: 2vw;
+            }
+        }
+    }
 }
+    @media screen and (max-width:462px) {
+        .perrosGatosServicios{
+            align-items: flex-start;
+        }
+    }
+    // /PERROS GATOS Y SERVICIOS
 @media screen and (max-width: 767px){
     #navegacion{
         font-size: 3vw;
@@ -111,7 +110,7 @@
     }
     
 }
-/* /mediaQuery navbar  */
+/* /mediaQuery navbar + perrosGatosServicios */
 
 /*mediaQuery footer y prefooter */
 @media screen and (min-width: 992px) {

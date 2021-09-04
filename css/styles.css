@@ -560,28 +560,7 @@ p {
   transition: 1.3s;
 }
 
-@media screen and (min-width: 768px) {
-  .perrosGatosServicios {
-    margin-top: 20px;
-    width: 100%;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  .perrosGatosServicios .pic, .perrosGatosServicios .picMenosTranslateX {
-    width: 33%;
-  }
-  .perrosGatosServicios .pic p, .perrosGatosServicios .picMenosTranslateX p {
-    font-size: 2vw;
-  }
-}
-
-@media screen and (max-width: 462px) {
-  .perrosGatosServicios {
-    align-items: flex-start;
-  }
-}
-
-/*mediaQuery navbar  */
+/*mediaQuery navbar + perrosGatosServicios */
 @media screen and (min-width: 768px) {
   #navegacion {
     font-size: 2vw;
@@ -636,6 +615,24 @@ p {
   form .buscador {
     width: 147px;
   }
+  .perrosGatosServicios {
+    margin-top: 20px;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .perrosGatosServicios .pic, .perrosGatosServicios .picMenosTranslateX {
+    width: 33%;
+  }
+  .perrosGatosServicios .pic p, .perrosGatosServicios .picMenosTranslateX p {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (max-width: 462px) {
+  .perrosGatosServicios {
+    align-items: flex-start;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -668,7 +665,7 @@ p {
   }
 }
 
-/* /mediaQuery navbar  */
+/* /mediaQuery navbar + perrosGatosServicios */
 /*mediaQuery footer y prefooter */
 @media screen and (min-width: 992px) {
   .gradiente {
