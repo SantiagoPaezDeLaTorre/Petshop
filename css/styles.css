@@ -308,10 +308,10 @@ footer .futer3 .contenidoF3 .line h3:hover {
 
 .perrosGatosServicios .pic, .perrosGatosServicios .picMenosTranslateX {
   position: relative;
-  margin-top: 40px;
+  margin-top: 30px;
   padding-inline: 2%;
   transition: all 2s;
-  width: 50%;
+  width: 45%;
 }
 
 .perrosGatosServicios .pic img, .perrosGatosServicios .picMenosTranslateX img {
