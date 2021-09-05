@@ -55,16 +55,23 @@ section{
         }
     }
 }
+// MODAL
 .modal-body{
-    p{
+    .titulo{
+        p{
+        font-size: 1.6rem;
+        color: #2883C7;
+        font-weight: bold;
+        padding: 1% 0 1% 0;
+        margin-bottom: 0;
+        }
+    }
+    .info{
+        p{
         font-size: 1.2rem;
-            span{
-            font-weight: bold;
-            font-size: 1.6rem;
-            padding: 10% 0;
-            color: #2883C7;
-        }   
-    } 
+        margin-bottom: 0;
+        }
+    }
 }
 .gradiente {
     background: linear-gradient(whitesmoke 0.5% , #9DC9E0) ;

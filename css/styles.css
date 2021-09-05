@@ -960,15 +960,17 @@ section {
   }
 }
 
-.modal-body p {
-  font-size: 1.2rem;
+.modal-body .titulo p {
+  font-size: 1.6rem;
+  color: #2883C7;
+  font-weight: bold;
+  padding: 1% 0 1% 0;
+  margin-bottom: 0;
 }
 
-.modal-body p span {
-  font-weight: bold;
-  font-size: 1.6rem;
-  padding: 10% 0;
-  color: #2883C7;
+.modal-body .info p {
+  font-size: 1.2rem;
+  margin-bottom: 0;
 }
 
 .gradiente {
