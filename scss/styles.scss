@@ -16,6 +16,7 @@ html{
 body{
     font-family: Qsand, Arial, Helvetica, sans-serif;
     background-color: whitesmoke;
+    animation: 0.5s ease-in opacityIn;
 }
 .container{
     max-width: 85%;
@@ -27,7 +28,6 @@ section{
 
 .carousel{
     z-index: 1000;
-    animation: 0.5s ease-in opacityIn;
     .carousel-inner{
         .carousel-item{
             img{
@@ -74,7 +74,6 @@ section{
     position: relative;
     display: inline-block;  
     z-index: 905;
-    animation: 0.5s ease-in opacityIn;
     img{
         width: 100%;
         border-radius: 12px 12px 30px 30px;
@@ -95,7 +94,6 @@ section h1 h2 h3{
 .enConstruccion{
     width: 100%;
     padding-top: 5%;
-    animation: 0.5s ease-in opacityIn;
     img{
         max-width: 40%;
         display: block;

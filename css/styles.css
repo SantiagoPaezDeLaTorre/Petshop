@@ -184,7 +184,6 @@
 }
 
 footer {
-  animation: 0.5s ease-in opacityIn;
   width: 100%;
   display: grid;
   grid-template-areas: "futer1" "futer2" "futer3";
@@ -925,6 +924,7 @@ html {
 body {
   font-family: Qsand, Arial, Helvetica, sans-serif;
   background-color: whitesmoke;
+  animation: 0.5s ease-in opacityIn;
 }
 
 .container {
@@ -938,7 +938,6 @@ section {
 
 .carousel {
   z-index: 1000;
-  animation: 0.5s ease-in opacityIn;
 }
 
 .carousel .carousel-inner .carousel-item img {
@@ -981,7 +980,6 @@ section {
   position: relative;
   display: inline-block;
   z-index: 905;
-  animation: 0.5s ease-in opacityIn;
 }
 
 .banner img {
@@ -1003,7 +1001,6 @@ section h1 h2 h3 {
 .enConstruccion {
   width: 100%;
   padding-top: 5%;
-  animation: 0.5s ease-in opacityIn;
 }
 
 .enConstruccion img {

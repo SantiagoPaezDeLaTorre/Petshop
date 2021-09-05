@@ -54,9 +54,6 @@
         }
     }
     .formRight{
-        // grid-area: formRight;
-        // border: pink solid 1px;
-        
         width: 95%;
         min-width: 60%;
         margin: 0 auto;
@@ -95,7 +92,6 @@
             align-items: center;
             max-width: 100%;
             flex-direction: column;
-            // justify-content: space-between;
             .pregunta{
                 label{
                     font-size: 3vw;
@@ -129,11 +125,4 @@
         }
     }
 }
-
-
-
-
-
-
-
 /* /CONTACTO */
