@@ -1,6 +1,3 @@
-*:hover, *:focus, *:active{
-    outline: none;
-}
 @import 'fuentes';
 @import 'header';
 @import 'menu';
@@ -109,5 +106,9 @@ section h1 h2 h3{
         display: block;
         margin: auto;
     }
+}
+
+*:hover, *:focus, *:active{
+    outline: none;
 }
 
