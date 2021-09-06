@@ -307,14 +307,14 @@ footer .futer3 .contenidoF3 .line h3:hover {
 
 .perrosGatosServicios .pic, .perrosGatosServicios .picMenosTranslateX {
   position: relative;
-  margin-top: 30px;
+  margin-top: 10px;
   padding-inline: 2%;
   transition: all 2s;
   width: 45%;
 }
 
 .perrosGatosServicios .pic img, .perrosGatosServicios .picMenosTranslateX img {
-  width: 100%;
+  width: 90%;
   border-radius: 10px;
   min-width: 180px;
 }
@@ -631,7 +631,7 @@ p {
     width: 33%;
   }
   .perrosGatosServicios .pic p, .perrosGatosServicios .picMenosTranslateX p {
-    font-size: 2vw;
+    font-size: 1.7vw;
   }
 }
 
