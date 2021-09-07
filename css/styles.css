@@ -619,7 +619,19 @@ p {
     color: #c6e9fc;
     padding: 15px 4px 4px 10px;
     font-weight: bold;
-    transform: scale(1.4);
+    transform: scale(1.4) translateX(7%);
+  }
+  #navegacion .dropdown-menu .sub1:hover a {
+    transform: scale(1.4) translateX(3%);
+  }
+  #navegacion .dropdown-menu .sub2:hover a {
+    transform: scale(1.4) translateX(12%);
+  }
+  #navegacion .dropdown-menu .sub3:hover a {
+    transform: scale(1.4) translateX(1%);
+  }
+  #navegacion .dropdown-menu .iServ:hover a {
+    transform: scale(1.4) translateX(-1%);
   }
   form .buscador {
     width: 147px;

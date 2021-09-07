@@ -48,7 +48,19 @@
                 color: #c6e9fc;
                 padding: 15px 4px 4px 10px;
                 font-weight: bold;
-                transform: scale(1.4);
+                transform: scale(1.4) translateX(7%);
+            }
+            .sub1:hover a{
+                transform: scale(1.4) translateX(3%);
+            }
+            .sub2:hover a{
+                transform: scale(1.4) translateX(12%);
+            }
+            .sub3:hover a{
+                transform: scale(1.4) translateX(1%);
+            }
+            .iServ:hover a{
+                transform: scale(1.4) translateX(-1%);
             }
         }
     }
