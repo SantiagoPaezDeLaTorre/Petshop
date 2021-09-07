@@ -23,6 +23,8 @@
         .dropdown-menu{
             border-radius: 8px;
             background-color: #1E5594;
+            .dropdown-item{
+                font-size: 1rem;}
             hr{
                 margin: 6px 0;
             }
@@ -42,9 +44,9 @@
                 background-color: transparent;
             }
             li:hover a{
-                font-size: 1rem;
+                font-size: 0.9rem;
                 color: #c6e9fc;
-                padding: 5px;
+                padding: 15px 4px 4px 10px;
                 font-weight: bold;
                 transform: scale(1.4);
             }
@@ -79,9 +81,9 @@
     #navegacion{
         font-size: 3vw;
         .navbar-nav{
-            .dropdown-item{
-                font-size: 1.8vw;
-            }
+            // .dropdown-item{
+            //     font-size: 1.8vw;
+            // }
             .inicioDelay{
                 animation: 1.25s fadeInMenu;
             }

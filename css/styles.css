@@ -110,6 +110,7 @@
   margin: 5px;
   transition: all 0.5s ease-in-out;
   transform-origin: bottom left;
+  font-size: 2vw;
 }
 
 #navegacion .dropdown-menu a:hover {
@@ -119,7 +120,7 @@
 #navegacion .dropdown-menu li:hover a {
   font-weight: bold;
   padding: 3px;
-  font-size: 1.3rem;
+  font-size: 2.2vw;
   animation-duration: 2s;
   color: #2883C7;
 }
@@ -592,6 +593,9 @@ p {
     border-radius: 8px;
     background-color: #1E5594;
   }
+  #navegacion .dropdown-menu .dropdown-item {
+    font-size: 1rem;
+  }
   #navegacion .dropdown-menu hr {
     margin: 6px 0;
   }
@@ -611,9 +615,9 @@ p {
     background-color: transparent;
   }
   #navegacion .dropdown-menu li:hover a {
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: #c6e9fc;
-    padding: 5px;
+    padding: 15px 4px 4px 10px;
     font-weight: bold;
     transform: scale(1.4);
   }
@@ -642,9 +646,6 @@ p {
 @media screen and (max-width: 767px) {
   #navegacion {
     font-size: 3vw;
-  }
-  #navegacion .navbar-nav .dropdown-item {
-    font-size: 1.8vw;
   }
   #navegacion .navbar-nav .inicioDelay {
     animation: 1.25s fadeInMenu;
