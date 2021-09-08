@@ -1,5 +1,5 @@
 #navegacion{
-    // font-size: 2.5vw;
+    font-size: 3.5vw;
     padding: 10px 0 4px 0;
     background-color:whitesmoke;
     color:whitesmoke;
@@ -7,7 +7,7 @@
     width: 100%;
     margin: auto;
     position: relative;
-    font-family: Qsand;
+    font-family: QsandSemiBold;
     border-radius: 15px 15px 0 0;
     animation: 0.8s opacityIn;
     .navbar-toggler{
@@ -25,7 +25,7 @@
         opacity: 1;
         padding-top: 0;
         color: #1E5594;
-        font-family: Qsand;
+        font-family: QsandSemiBold;
     }
     .nav-link:hover{
         color: #2883C7;
@@ -37,17 +37,17 @@
         border-radius: 15px;
         z-index: 1001;
         a{
-            line-height: 2rem;
+            //line-height: 2rem;
             position: relative;
             color: #1E5594;
             width: 155px;
             text-align: center;
-            padding-left: 10px;
-            border-radius: 5px;
-            margin: 5px;
+            //padding-left: 10px;
+            //border-radius: 5px;
+            //margin: 5px;
             transition: all 0.5s ease-in-out;
             transform-origin:bottom left;
-            font-size: 2vw;
+            font-size: 2.2vw;
         }
         a:hover{
             background-color: transparent;
@@ -55,7 +55,7 @@
         li:hover a{
             font-weight: bold;
             padding: 3px;
-            font-size: 2.2vw;
+            font-size: 2.4vw;
             animation-duration: 2s;
             color: #2883C7;
         }

@@ -54,6 +54,7 @@
 }
 
 #navegacion {
+  font-size: 3.5vw;
   padding: 10px 0 4px 0;
   background-color: whitesmoke;
   color: whitesmoke;
@@ -61,7 +62,7 @@
   width: 100%;
   margin: auto;
   position: relative;
-  font-family: Qsand;
+  font-family: QsandSemiBold;
   border-radius: 15px 15px 0 0;
   animation: 0.8s opacityIn;
 }
@@ -84,7 +85,7 @@
   opacity: 1;
   padding-top: 0;
   color: #1E5594;
-  font-family: Qsand;
+  font-family: QsandSemiBold;
 }
 
 #navegacion .nav-link:hover {
@@ -100,17 +101,13 @@
 }
 
 #navegacion .dropdown-menu a {
-  line-height: 2rem;
   position: relative;
   color: #1E5594;
   width: 155px;
   text-align: center;
-  padding-left: 10px;
-  border-radius: 5px;
-  margin: 5px;
   transition: all 0.5s ease-in-out;
   transform-origin: bottom left;
-  font-size: 2vw;
+  font-size: 2.2vw;
 }
 
 #navegacion .dropdown-menu a:hover {
@@ -120,7 +117,7 @@
 #navegacion .dropdown-menu li:hover a {
   font-weight: bold;
   padding: 3px;
-  font-size: 2.2vw;
+  font-size: 2.4vw;
   animation-duration: 2s;
   color: #2883C7;
 }
@@ -594,7 +591,7 @@ p {
     background-color: #1E5594;
   }
   #navegacion .dropdown-menu .dropdown-item {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   #navegacion .dropdown-menu hr {
     margin: 6px 0;
@@ -625,7 +622,7 @@ p {
     transform: scale(1.4) translateX(3%);
   }
   #navegacion .dropdown-menu .sub2:hover a {
-    transform: scale(1.4) translateX(12%);
+    transform: scale(1.4) translateX(14%);
   }
   #navegacion .dropdown-menu .sub3:hover a {
     transform: scale(1.4) translateX(1%);
@@ -656,9 +653,6 @@ p {
 }
 
 @media screen and (max-width: 767px) {
-  #navegacion {
-    font-size: 3vw;
-  }
   #navegacion .navbar-nav .inicioDelay {
     animation: 1.25s fadeInMenu;
   }

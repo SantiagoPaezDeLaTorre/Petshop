@@ -24,7 +24,7 @@
             border-radius: 8px;
             background-color: #1E5594;
             .dropdown-item{
-                font-size: 1rem;}
+                font-size: 1.2rem;}
             hr{
                 margin: 6px 0;
             }
@@ -54,7 +54,7 @@
                 transform: scale(1.4) translateX(3%);
             }
             .sub2:hover a{
-                transform: scale(1.4) translateX(12%);
+                transform: scale(1.4) translateX(14%);
             }
             .sub3:hover a{
                 transform: scale(1.4) translateX(1%);
@@ -91,11 +91,7 @@
     // /PERROS GATOS Y SERVICIOS
 @media screen and (max-width: 767px){
     #navegacion{
-        font-size: 3vw;
         .navbar-nav{
-            // .dropdown-item{
-            //     font-size: 1.8vw;
-            // }
             .inicioDelay{
                 animation: 1.25s fadeInMenu;
             }
