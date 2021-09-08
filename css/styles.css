@@ -589,6 +589,7 @@ p {
   #navegacion .dropdown-menu {
     border-radius: 8px;
     background-color: #1E5594;
+    font-family: Qsand;
   }
   #navegacion .dropdown-menu .dropdown-item {
     font-size: 1.2rem;
