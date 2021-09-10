@@ -1,4 +1,4 @@
-/*mediaQuery navbar + perrosGatosServicios */
+// mediaQuery navbar + perrosGatosServicios
 @media screen and (min-width: 768px) {
     #navegacion{
         font-size: 2vw;
@@ -120,13 +120,14 @@
     }
     
 }
-/* /mediaQuery navbar + perrosGatosServicios */
+// /mediaQuery navbar + perrosGatosServicios
 
-/*mediaQuery footer y prefooter */
-@media screen and (min-width: 992px) {
+// mediaQuery footer, prefooter y formContacto
+@media screen and (min-width: 768px) {
     .gradiente{
         background: linear-gradient(whitesmoke 30%,#9DC9E0) ;
     }
+    // FOOTER
     .preFooter{
         font-family: QsandSemiBold;
         font-size: 1.5rem;
@@ -153,6 +154,9 @@
             max-width: 60px;
         }
     }
+    // /PREFOOTER
+
+    // FOOTER
     footer{
         width: 100%;
         grid-template-areas: "futer1 futer2 futer3";
@@ -165,9 +169,20 @@
         .futer1{
             grid-area: futer1;
             max-width: 100%;
+            .contenidoF1{
+                .btnFuter1{
+                    font-size: calc(1rem + .6vw);
+                }
+            }
         }
         .futer2{
             grid-area: futer2;
+            .mediosDePago{
+                margin-right: 5%;
+            }
+            .medios{
+                margin-right: 5%;
+            }
             .mediosPago{
                 width: 80%;
                 padding: 0;
@@ -183,21 +198,22 @@
         }
         .futer3{
             grid-area: futer3;
+            .contenidoF3{
+                .line{
+                    h3{
+                        font-size: calc(1rem + .6vw);
+                    }
+                }
+            }
         }
         .foot{
             padding: 10px 0 10px 0;
             margin-top: 15px;
-            h3{
-                font-size: 1.8rem;
-            }
         }
     }
-}
-/* / mediaQuery footer y prefooter*/
+    // /FOOTER
 
-
-// FORM
-@media screen and(min-width: 778px) {
+    // FORM
     .formDiv{
         margin-top: 2%;
         margin-inline: auto;
@@ -324,3 +340,4 @@
         }
     }
 }
+// /mediaQuery footer, prefooter y formContacto
