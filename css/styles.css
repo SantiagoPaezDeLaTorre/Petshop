@@ -650,11 +650,18 @@ p {
 
 @media screen and (max-width: 462px) {
   .perrosGatosServicios {
+    padding-left: 10%;
     align-items: flex-start;
   }
 }
 
 @media screen and (max-width: 767px) {
+  .perrosGatosServicios .pic, .perrosGatosServicios .picMenosTranslateX {
+    width: 55%;
+  }
+  .perrosGatosServicios .pic img, .perrosGatosServicios .picMenosTranslateX img {
+    width: 100%;
+  }
   #navegacion .navbar-nav .inicioDelay {
     animation: 1.25s fadeInMenu;
   }

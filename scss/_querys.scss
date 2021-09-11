@@ -86,11 +86,20 @@
 }
     @media screen and (max-width:462px) {
         .perrosGatosServicios{
+            padding-left: 10%;
             align-items: flex-start;
         }
     }
     // /PERROS GATOS Y SERVICIOS
 @media screen and (max-width: 767px){
+    .perrosGatosServicios{
+        .pic, .picMenosTranslateX{
+            width: 55%;
+            img{
+                width: 100%;
+            }
+        }
+    }
     #navegacion{
         .navbar-nav{
             .inicioDelay{
