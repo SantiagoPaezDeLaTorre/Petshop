@@ -103,10 +103,10 @@
                 font-family: QsandBold;
                 button{
                     margin-bottom: 1rem;
-                    font-size: 1.2rem;
+                    //line-height: 1.5rem;
+                    font-size: calc(0.8rem + .8vw);
                     border-radius: 5px;
-                    padding: 1rem;
-                    max-width: 100%;
+                    padding: 10px 6px;
                     outline: none;
                     border: none;
                     background-color: #1E5594;
@@ -117,7 +117,8 @@
                     background-color: #2883C7;
                     color: #c6e9fc;
                     transition-duration: 0.7s;
-                    padding-inline: 1.6rem;
+                    // padding-inline: 1.4rem;
+                    transform: scaleX(1.25);
                 }
             }
         }
