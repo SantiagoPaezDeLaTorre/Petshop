@@ -364,13 +364,15 @@ footer .futer3 .contenidoF3 .line h3:hover {
   background: whitesmoke;
   position: relative;
   border-radius: 15px;
-  border: dotted;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   color: #515151;
   width: 80%;
   display: flex;
   flex-direction: column;
   align-content: center;
   margin: auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
 
 .formDiv .formInputs {
@@ -399,23 +401,18 @@ footer .futer3 .contenidoF3 .line h3:hover {
   width: 100%;
 }
 
-.formDiv .formInputs label, .formDiv .formInputs input, .formDiv .formInputs select {
+.formDiv .formInputs input, .formDiv .formInputs select {
   border-radius: 10px;
   border: none;
   border-bottom: 2px solid #2883C7;
-}
-
-.formDiv .formInputs label {
-  margin: 0.5rem;
-  flex-wrap: nowrap;
-  min-width: 50%;
-}
-
-.formDiv .formInputs input, .formDiv .formInputs select {
   outline: none;
   width: 95%;
   padding: 0.5rem;
   margin: 1rem 0;
+}
+
+.formDiv .formInputs select {
+  color: #5e5d5d;
 }
 
 .formDiv .formRight {
@@ -437,6 +434,7 @@ footer .futer3 .contenidoF3 .line h3:hover {
   background-color: #c6e9fc;
   border-radius: 10px;
   opacity: 0.7;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
 }
 
 .formDiv .formRight .formText input {
@@ -454,6 +452,7 @@ footer .futer3 .contenidoF3 .line h3:hover {
   border: solid #2883C7;
   padding: 1rem;
   outline: none;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
 .formDiv .formRight .formRightBottom {
@@ -487,6 +486,7 @@ footer .futer3 .contenidoF3 .line h3:hover {
   background-color: #1E5594;
   color: #baddf0;
   width: 100%;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
 .formDiv .formRight .formRightBottom .botonesFormulario button:hover {
@@ -769,7 +769,6 @@ p {
     background: whitesmoke;
     position: relative;
     border-radius: 15px;
-    border: dotted;
     color: #515151;
     width: 70%;
     display: flex;
