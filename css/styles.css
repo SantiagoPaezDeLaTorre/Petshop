@@ -975,7 +975,24 @@ section {
   }
 }
 
-.modal-body .titulo p {
+.modal .modal-header h5 {
+  padding-left: 30%;
+  font-size: 1.4vw;
+}
+
+.modal .modal-header .modal1Title {
+  padding-left: 33%;
+}
+
+.modal .modal-header .modal2Title {
+  padding-left: 28%;
+}
+
+.modal .modal-header button {
+  color: #2883C7;
+}
+
+.modal .modal-body .titulo p {
   font-size: 1.6rem;
   color: #2883C7;
   font-weight: bold;
@@ -983,9 +1000,19 @@ section {
   margin-bottom: 0;
 }
 
-.modal-body .info p {
+.modal .modal-body .info p {
   font-size: 1.2rem;
   margin-bottom: 0;
+}
+
+.modal .modal-footer button {
+  background-color: #1E5594;
+  color: whitesmoke;
+  border: none;
+}
+
+.modal .modal-footer button:hover {
+  background-color: #2883C7;
 }
 
 .gradiente {
