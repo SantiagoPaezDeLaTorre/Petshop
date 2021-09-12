@@ -481,7 +481,7 @@ footer .futer3 .contenidoF3 .line h3:hover {
   margin-bottom: 1rem;
   font-size: calc(0.8rem + .8vw);
   border-radius: 5px;
-  padding: 10px 6px;
+  padding: 10px 7vw;
   outline: none;
   border: none;
   background-color: #1E5594;
@@ -492,8 +492,8 @@ footer .futer3 .contenidoF3 .line h3:hover {
 .formDiv .formRight .formRightBottom .botonesFormulario button:hover {
   background-color: #2883C7;
   color: #c6e9fc;
-  transition-duration: 0.7s;
-  transform: scaleX(1.25);
+  transition-duration: 0.55s;
+  padding-inline: 8vw;
 }
 
 /* /CONTACTO */
@@ -870,7 +870,7 @@ p {
   .formDiv .formRight .formRightBottom .botonesFormulario button {
     font-size: 1.2rem;
     border-radius: 5px;
-    padding: 1rem;
+    padding: 10px 3vw;
     max-width: 100%;
     outline: none;
     border: none;
@@ -883,7 +883,7 @@ p {
     background-color: #2883C7;
     color: #c6e9fc;
     transition-duration: 0.7s;
-    transform: scaleX(1.1) translateX(-6%);
+    padding-inline: 3.2rem;
   }
 }
 
