@@ -178,8 +178,8 @@
   color: #515151;
 }
 
-.preFooterMenosPadding {
-  padding: 0 0 5px;
+.gradiente {
+  background: linear-gradient(whitesmoke 0.5%, #9DC9E0);
 }
 
 footer {
@@ -193,6 +193,7 @@ footer {
 
 footer h2 {
   font-size: 2.5rem;
+  color: #c92222;
 }
 
 footer .foot {
@@ -224,6 +225,7 @@ footer .foot .contenidoF h3 {
 }
 
 footer .futer1 {
+  grid-area: futer1;
   display: flex;
   flex-direction: column;
   max-width: 60%;
@@ -363,6 +365,7 @@ footer .futer3 .contenidoF3 .line h3:hover {
   font-size: 2.5vw;
   background: whitesmoke;
   position: relative;
+  top: 20px;
   border-radius: 15px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   color: #515151;
@@ -494,9 +497,27 @@ footer .futer3 .contenidoF3 .line h3:hover {
 }
 
 /* /CONTACTO */
+.banner {
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  z-index: 905;
+}
+
+.banner img {
+  width: 100%;
+  border-radius: 12px 12px 30px 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .banner img {
+    border-radius: 0 0 30px 30px;
+  }
+}
+
 .modal .modal-header h5 {
   padding-left: 30%;
-  font-size: 1.4vw;
+  font-size: 1.5rem;
 }
 
 .modal .modal-header .modal1Title {
@@ -532,6 +553,30 @@ footer .futer3 .contenidoF3 .line h3:hover {
 
 .modal .modal-footer button:hover {
   background-color: #2883C7;
+}
+
+.carousel {
+  z-index: 1000;
+}
+
+.carousel .carousel-inner .carousel-item img {
+  border-radius: 15px;
+}
+
+#carouselExampleIndicators .carousel-indicators {
+  bottom: -42px;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .carousel .carousel-inner .carousel-item img {
+    border-radius: 0 0 15px 15px;
+  }
 }
 
 * {
@@ -719,6 +764,12 @@ p {
   #navegacion .navbar-collapse .dropdown-menu a {
     text-align: center;
   }
+  #navegacion .navbar-collapse form {
+    justify-content: center;
+  }
+  #navegacion .navbar-collapse form button {
+    padding-inline: 4%;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -897,9 +948,6 @@ p {
     font-size: 2vw;
     padding: 1% 2%;
   }
-  .formDiv .formRight .formRightBottom .pregunta input {
-    transform: scale(1.5);
-  }
   .formDiv .formRight .formRightBottom .botonesFormulario {
     font-family: QsandBold;
   }
@@ -983,61 +1031,6 @@ body {
   margin: 0 auto;
 }
 
-section {
-  color: #c92222;
-}
-
-.carousel {
-  z-index: 1000;
-}
-
-.carousel .carousel-inner .carousel-item img {
-  border-radius: 15px;
-}
-
-#carouselExampleIndicators .carousel-indicators {
-  bottom: -42px;
-}
-
-.carousel-indicators [data-bs-target] {
-  width: 10px;
-  height: 10px;
-  border-radius: 100%;
-}
-
-@media screen and (min-width: 768px) {
-  .carousel .carousel-inner .carousel-item img {
-    border-radius: 0 0 15px 15px;
-  }
-}
-
-.gradiente {
-  background: linear-gradient(whitesmoke 0.5%, #9DC9E0);
-}
-
-.banner {
-  width: 100%;
-  position: relative;
-  display: inline-block;
-  z-index: 905;
-}
-
-.banner img {
-  width: 100%;
-  border-radius: 12px 12px 30px 30px;
-}
-
-@media screen and (min-width: 768px) {
-  .banner img {
-    border-radius: 0 0 30px 30px;
-  }
-}
-
-section h1 h2 h3 {
-  color: #00a6ff;
-}
-
-/* Tuve que ponerlo asi, "repetido" para especificar el h3, si no, no se por que no me abarcaba al h3 el color   */
 .enConstruccion {
   width: 100%;
   padding-top: 5%;

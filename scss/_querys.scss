@@ -125,6 +125,12 @@
             .dropdown-menu a{
                 text-align: center;
             }
+            form{
+                justify-content: center;
+                button{
+                    padding-inline: 4%;
+                }
+            }
         }
     }
     
@@ -319,9 +325,6 @@
                     label{
                         font-size: 2vw;
                         padding: 1% 2%;
-                    }
-                    input{
-                        transform: scale(1.5);
                     }
                 }
                 .botonesFormulario{
