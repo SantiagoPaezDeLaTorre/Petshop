@@ -364,7 +364,7 @@ footer .futer3 .contenidoF3 .line h3:hover {
   background: whitesmoke;
   position: relative;
   border-radius: 15px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   color: #515151;
   width: 80%;
   display: flex;
@@ -434,7 +434,6 @@ footer .futer3 .contenidoF3 .line h3:hover {
   background-color: #c6e9fc;
   border-radius: 10px;
   opacity: 0.7;
-  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
 }
 
 .formDiv .formRight .formText input {
@@ -452,7 +451,6 @@ footer .futer3 .contenidoF3 .line h3:hover {
   border: solid #2883C7;
   padding: 1rem;
   outline: none;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
 .formDiv .formRight .formRightBottom {
@@ -486,7 +484,6 @@ footer .futer3 .contenidoF3 .line h3:hover {
   background-color: #1E5594;
   color: #baddf0;
   width: 100%;
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
 .formDiv .formRight .formRightBottom .botonesFormulario button:hover {
@@ -497,6 +494,46 @@ footer .futer3 .contenidoF3 .line h3:hover {
 }
 
 /* /CONTACTO */
+.modal .modal-header h5 {
+  padding-left: 30%;
+  font-size: 1.4vw;
+}
+
+.modal .modal-header .modal1Title {
+  padding-left: 33%;
+}
+
+.modal .modal-header .modal2Title {
+  padding-left: 28%;
+}
+
+.modal .modal-header button {
+  color: #2883C7;
+}
+
+.modal .modal-body .titulo p {
+  font-size: 1.6rem;
+  color: #2883C7;
+  font-weight: bold;
+  padding: 1% 0 1% 0;
+  margin-bottom: 0;
+}
+
+.modal .modal-body .info p {
+  font-size: 1.2rem;
+  margin-bottom: 0;
+}
+
+.modal .modal-footer button {
+  background-color: #1E5594;
+  color: whitesmoke;
+  border: none;
+}
+
+.modal .modal-footer button:hover {
+  background-color: #2883C7;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -972,46 +1009,6 @@ section {
   .carousel .carousel-inner .carousel-item img {
     border-radius: 0 0 15px 15px;
   }
-}
-
-.modal .modal-header h5 {
-  padding-left: 30%;
-  font-size: 1.4vw;
-}
-
-.modal .modal-header .modal1Title {
-  padding-left: 33%;
-}
-
-.modal .modal-header .modal2Title {
-  padding-left: 28%;
-}
-
-.modal .modal-header button {
-  color: #2883C7;
-}
-
-.modal .modal-body .titulo p {
-  font-size: 1.6rem;
-  color: #2883C7;
-  font-weight: bold;
-  padding: 1% 0 1% 0;
-  margin-bottom: 0;
-}
-
-.modal .modal-body .info p {
-  font-size: 1.2rem;
-  margin-bottom: 0;
-}
-
-.modal .modal-footer button {
-  background-color: #1E5594;
-  color: whitesmoke;
-  border: none;
-}
-
-.modal .modal-footer button:hover {
-  background-color: #2883C7;
 }
 
 .gradiente {
